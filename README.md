@@ -8,5 +8,5 @@ Documentation site for Visual Essays.
 
 ## Visualization components
 
-1. [Image viewer](Visualization components/Image viewer)
+1. [Image viewer](Visualization-components/Image-viewer)
 2. [Map viewer](Visualization components/Map viewer)
