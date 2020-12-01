@@ -3,6 +3,7 @@
     "banner": "/banner.jpg",
     "acct": "JSTOR-Labs",
     "repo": "ve-docs",
+    "logo": "/labs.jpg",
     "nav": [
         {"label": "Home", "icon": "home-alt", "path": "/"},
         {"label": "About", "icon": "info", "path": "/about"}
