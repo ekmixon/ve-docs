@@ -1,6 +1,6 @@
 {
     "title": "Visual Essays",
-    "banner": "https://picsum.photos/1200/400",
+    "banner": "/banner.jpg",
     "acct": "JSTOR-Labs",
     "repo": "ve-docs",
     "nav": [
