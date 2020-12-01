@@ -1,4 +1,4 @@
 <a href="https://dev.visual-essays.app"><img src="/ve-button.png"></a>
 
 # ve-docs
-Documentation for Visual Essays
+Documentation site for Visual Essays
