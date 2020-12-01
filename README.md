@@ -3,4 +3,10 @@
 # Visual Essays
 
 Documentation site for Visual Essays.
-<param ve-map>
+
+## Markdown
+
+## Visualization components
+
+1. [Image viewer](Visualization components/Image viewer)
+2. [Map viewer](Visualization components/Map viewer)
