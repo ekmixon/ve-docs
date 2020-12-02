@@ -13,28 +13,29 @@ Briefly describes what a visual essay is... an HTML page rendered from annotated
 ## Useful background and jargon
 
 1. [Knowledge graphs](knowledge-graphs)
-2. [IIIF (International Image Interoperability Framework)](iiif)
-3. ...
+1. [IIIF (International Image Interoperability Framework)](iiif)
+1. ...
 
 ## Authoring guides
 
 1. [Github basics](github)
-2. [Markdown and HTML basics](markup)
-3. [Data sources](data-sources)
-4. [Components reference](components)
-5. [Workflow process](author-workflow)
+1. [Markdown and HTML basics](markup)
+1. [Data sources](data-sources)
+1. [Image annotation](annotation)
+1. [Components reference](components)
+1. [Workflow process](author-workflow)
 
 ## Site setup and administration
 
 1. [Site setup](site-setup)
-2. [Publishing content](publishing-content)
+1. [Publishing content](publishing-content)
 
 ## Samples
 
 1. [A mapping sampler](map-sampler)
-2. [An image sampler](image-sampler)
+1. [An image sampler](image-sampler)
 
 ## Other
 
 1. [List of helpful resources](resources)
-2. [Tips and tricks](tips)
+1. [Tips and tricks](tips)
