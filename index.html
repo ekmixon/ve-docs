@@ -76,6 +76,7 @@
         :essay-config="essayConfig"
         :site-config="context"
         :is-authenticated="isAuthenticated"
+        :read-only="readOnly"
         :href="href"
         :appVersion="appVersion"
         :libVersion="libVersion"
@@ -84,6 +85,7 @@
         @view-markdown="viewMarkdown"
         @edit-markdown="editMarkdown"
         @goto-github="gotoGithub"
+        @open-docs-site="openDocsSite"
       ></component>
     </div>
 
@@ -96,7 +98,7 @@
   </div>
 
   <script>window.context = null</script>
-  <script src="https://dev-visual-essays.netlify.app/visual-essays.min.js"></script>
+  <script src="https://visual-essays.netlify.app/visual-essays.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
   <script src="https://kit.fontawesome.com/19541ddce8.js" crossorigin="anonymous"></script>
 
@@ -134,25 +136,10 @@ new Promise(function(resolve, reject) {
           href: undefined
         }),
         computed: {
-          isAuthenticated() { return this.jwt !== null && this.jwt !== undefined }
+          isAuthenticated() { return this.jwt !== null && this.jwt !== undefined },
+          readOnly() { return this.context.qargs.readonly}
         },
         mounted() {
-          if (this.jwt) {
-            window.localStorage.setItem('ghcreds', this.jwt)
-          } else {
-            const jwt = window.localStorage.getItem('ghcreds')
-            if (jwt !== null) {
-              // Saved JWT found, check to see if it's expired
-              fetch(`${this.context.service}/jwt-expiration/${jwt}`).then(resp => resp.text())
-              .then(expStr => {
-                if (parseInt(expStr) >= Date.now()/1000) {
-                  this.jwt = jwt
-                } else {
-                  window.localStorage.removeItem('ghcreds')
-                }
-              })
-            }
-          }
           window.onpopstate = (e) => { this.loadEssay(e.state.file, true) }
           this.loadEssay(this.context.path)
         },
@@ -230,6 +217,11 @@ new Promise(function(resolve, reject) {
             const url = `https://github.com/${this.context.acct}/${this.context.repo}/tree/${this.context.branch}`
             if (this.externalWindow) { this.externalWindow.close() }
             this.externalWindow = window.open(url, '_blank')
+          },
+          openDocsSite(editor) {
+            const url = `https://docs.visual-essays.app?readonly`
+            if (this.externalWindow) { this.externalWindow.close() }
+            this.externalWindow = window.open(url, '_blank', `toolbar=yes,location=yes,left=0,top=0,width=1000,height=1200,scrollbars=yes,status=yes`)
           },
           convertLinks() {
             // convert links
