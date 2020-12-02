@@ -8,15 +8,18 @@ Briefly describes what a visual essay is... an HTML page rendered from annotated
 
 ## Quick start
 
+1. First, [sign up for a free Github account](https://github.com/join) if you don't have one yet 
 1. [Create your first visual essay in less than 5 minutes](quick-start)
 
-## Useful background and jargon
+## When you're ready for more
+
+### Useful background and jargon
 
 1. [Knowledge graphs](knowledge-graphs)
 1. [IIIF (International Image Interoperability Framework)](iiif)
 1. ...
 
-## Authoring guides
+### Authoring guides
 
 1. [Github basics](github)
 1. [Markdown and HTML basics](markup)
