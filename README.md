@@ -8,7 +8,7 @@ Briefly describes what a visual essay is... an HTML page rendered from annotated
 
 ## Quick start
 
-A "hello world" example enabling a user to quickly create a working essay
+1. [Create your first visual essay in less than 5 minutes](quick-start]
 
 ## Useful background and jargon
 
