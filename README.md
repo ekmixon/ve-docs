@@ -22,7 +22,7 @@ Briefly describes what a visual essay is... an HTML page rendered from annotated
 2. [Markdown and HTML basics](markup)
 3. [Data sources](data-sources)
 4. [Components reference](components)
-5. [Workflow process](author-workflow]
+5. [Workflow process](author-workflow)
 
 ## Site setup and administration
 
