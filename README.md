@@ -10,3 +10,6 @@ Documentation site for Visual Essays.
 
 1. [Image viewer](visualization-components/image-viewer.md)
 2. [Map viewer](visualization-components/map-viewer.md)
+3. [Viewer with resources](visualization-components/vis-component-with-resources)
+
+[Code sample](code-sample.md)
