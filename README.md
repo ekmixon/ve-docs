@@ -2,7 +2,7 @@
 
 # Visual Essays
 
-## General overview
+## Overview
 
 Briefly describes what a visual essay is... an HTML page rendered from annotated markdown
 
@@ -10,32 +10,31 @@ Briefly describes what a visual essay is... an HTML page rendered from annotated
 
 A "hello world" example enabling a user to quickly create a working essay
 
-## Markdown
+## Useful background and jargon
 
-- An overview of what it is, with pointers to applicable references (online manuals, cheatsheets)
-- Info on how to create/edit markdown
-- Overview of markdown extensions we're using for visual essays, including a couple examples for creating footnotes and inline image styling
+1. [Knowledge graphs](knowledge-graphs)
+2. [IIIF (International Image Interoperability Framework)](iiif)
+3. ...
 
-## HTML tags
+## Authoring guides
 
-A overview HTML tagging and the use of the `param` tag for annotating markdown text for creating and configuring visualizations.
+1. [Github basics](github)
+2. [Markdown and HTML basics](markup)
+3. [Data sources](data-sources)
+4. [Components reference](components)
+5. [Workflow process](author-workflow]
 
-## Visualization components
+## Site setup and administration
 
-Overview, reference manual and examples of the pre-defined visualization components.
+1. [Site setup](site-setup)
+2. [Publishing content](publishing-content)
 
-1. [Image viewer](visualization-components/image-viewer.md)
-2. [Map viewer](visualization-components/map-viewer.md)
-3. Others
+## Samples
 
+1. [A mapping sampler](map-sampler)
+2. [An image sampler](image-sampler)
 
-## Data sources
+## Other
 
-### The Wikidata and JSTOR Labs knowledge graphs
-
-- Describe what these are and how they are currently used in the essay - in the `<param ve-entity>` 
-- Describe how authors may create entities to add or supplement those already available in Wikidata.  
-
-### Custom data sources
-
-The creation and use of CSV, TSV, and JSON data files for use in visualizations.
+1. [List of helpful resources](resources)
+2. [Tips and tricks](tips)
