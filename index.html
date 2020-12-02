@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="/images/favicon.ico" rel="icon" type="image/x-icon">
+  <title></title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
-  <title>Visual Essays Docs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
   <script src="https://cdn.jsdelivr.net/npm/http-vue-loader@1.4.2/src/httpVueLoader.min.js"></script>
   <style>
@@ -84,6 +83,7 @@
         @logout="logout"
         @view-markdown="viewMarkdown"
         @edit-markdown="editMarkdown"
+        @goto-github="gotoGithub"
       ></component>
     </div>
 
@@ -134,15 +134,32 @@ new Promise(function(resolve, reject) {
           href: undefined
         }),
         computed: {
-          isAuthenticated() { return this.jwt !== undefined }
+          isAuthenticated() { return this.jwt !== null && this.jwt !== undefined }
         },
         mounted() {
+          if (this.jwt) {
+            window.localStorage.setItem('ghcreds', this.jwt)
+          } else {
+            const jwt = window.localStorage.getItem('ghcreds')
+            if (jwt !== null) {
+              // Saved JWT found, check to see if it's expired
+              fetch(`${this.context.service}/jwt-expiration/${jwt}`).then(resp => resp.text())
+              .then(expStr => {
+                if (parseInt(expStr) >= Date.now()/1000) {
+                  this.jwt = jwt
+                } else {
+                  window.localStorage.removeItem('ghcreds')
+                }
+              })
+            }
+          }
           window.onpopstate = (e) => { this.loadEssay(e.state.file, true) }
           this.loadEssay(this.context.path)
         },
         methods: {
           logout() {
             this.jwt = undefined
+            window.localStorage.removeItem('ghcreds')
           },
           menuItemClicked(path) {
             if (path !== this.current) this.loadEssay(path)
@@ -199,16 +216,20 @@ new Promise(function(resolve, reject) {
           viewMarkdown() {
             const url = this.context.path === '/help' && hostname !== 'localhost'
               ? `https://${this.context.branch.codeBranch === 'develop' ? 'dev.' : ''}visual-essays.app/essay/jstor-labs/ve-content/help?raw&root=/docs&branch=${this.context.branch}`
-              : `${this.context.service}/markdown-viewer/${this.context.acct}/${this.context.repo}${this.context.path}?branch=${this.context.branch}&root=${this.context.mdRoot}`
+              : `${this.context.service}/markdown-viewer/${this.context.acct}/${this.context.repo}/${this.context.branch}${this.current}`
             if (this.externalWindow) { this.externalWindow.close() }
             this.markdownViewer = window.open(url, '_blank', `toolbar=yes,location=yes,left=0,top=0,width=1000,height=1200,scrollbars=yes,status=yes`)
           },
           editMarkdown(editor) {
-            const url = editor == 'stackedit'
-              ? `https://stackedit.io/app#providerId=githubWorkspace&owner=${this.context.acct}&repo=${this.context.repo}&branch=${this.context.branch}`
-              : `https://${this.context.branch.codeBranch === 'develop' ? 'dev.' : ''}editor.visual-essays.app${this.context.mdRoot}${this.context.path === '/' ? window._essay : this.current}.md`
+            const url = `https://github.com/${this.context.acct}/${this.context.repo}/edit/${this.context.branch}${this.context.mdRoot}/${window._essay}.md`
+            // const url = `https://github.com/${this.context.acct}/${this.context.repo}/edit/develop${this.context.mdRoot}/${window._essay}.md`
             if (this.externalWindow) { this.externalWindow.close() }
-            this.externalWindow = window.open(url, '_blank', `toolbar=yes,location=yes,left=0,top=0,width=1400,height=1200,scrollbars=yes,status=yes`)
+            this.externalWindow = window.open(url, '_blank', `toolbar=yes,location=yes,left=0,top=0,width=1300,height=1600,scrollbars=yes,status=yes`)
+          },
+          gotoGithub(editor) {
+            const url = `https://github.com/${this.context.acct}/${this.context.repo}/tree/${this.context.branch}`
+            if (this.externalWindow) { this.externalWindow.close() }
+            this.externalWindow = window.open(url, '_blank')
           },
           convertLinks() {
             // convert links
