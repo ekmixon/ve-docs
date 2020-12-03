@@ -4,7 +4,7 @@
     "acct": "JSTOR-Labs",
     "repo": "ve-docs",
     "logo": "/labs.jpg",
-    "favicon": "/favicon.ico",
+    "favicon": "/book-icon.png",
     "nav": [
         {"label": "Home", "icon": "home-alt", "path": "/"},
         {"label": "About", "icon": "info", "path": "/about"},
