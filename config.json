@@ -7,6 +7,7 @@
     "favicon": "/favicon.ico",
     "nav": [
         {"label": "Home", "icon": "home-alt", "path": "/"},
+        {"label": "Home Grid", "icon": "home-alt", "path": "/"},
         {"label": "About", "icon": "info", "path": "/about"},
         {"label": "Login", "icon": "user"}
     ]
