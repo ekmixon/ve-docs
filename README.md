@@ -21,8 +21,8 @@ Briefly describes what a visual essay is... an HTML page rendered from annotated
 
 ### Samples
 
-1. [Simple essay with a map](samples/simple-map.md)
-1. [An image sampler](samples/image-sampler)
+1. [Simple map essay](samples/simple-map.md)
+1. [Simple image essay](samples/simple-image.md)
 
 ## For authors
 
