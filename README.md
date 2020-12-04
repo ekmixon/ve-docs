@@ -1,6 +1,6 @@
 <a href="https://visual-essays.app"><img src="/ve-button.png"></a>
 
-# Visual Essays fasfdafaf afafafaf
+# Visual Essays
 
 ## Overview
 
