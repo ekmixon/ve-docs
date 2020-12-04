@@ -98,7 +98,7 @@
   </div>
 
   <script>window.context = null</script>
-  <script src="https://visual-essays.netlify.app/visual-essays.min.js"></script>
+  <script src="https://dev-visual-essays.netlify.app/visual-essays.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
   <script src="https://kit.fontawesome.com/19541ddce8.js" crossorigin="anonymous"></script>
 
@@ -208,8 +208,9 @@ new Promise(function(resolve, reject) {
             this.markdownViewer = window.open(url, '_blank', `toolbar=yes,location=yes,left=0,top=0,width=1000,height=1200,scrollbars=yes,status=yes`)
           },
           editMarkdown(editor) {
-            const url = `https://github.com/${this.context.acct}/${this.context.repo}/edit/${this.context.branch}${this.context.mdRoot}/${window._essay}.md`
-            // const url = `https://github.com/${this.context.acct}/${this.context.repo}/edit/develop${this.context.mdRoot}/${window._essay}.md`
+            const url = editor == 'custom'
+              ? `https://editor.visual-essays.app/${this.context.acct}/${this.context.repo}${this.context.mdRoot}/${window._essay}.md`
+              : `https://github.com/${this.context.acct}/${this.context.repo}/edit/${this.context.branch}${this.context.mdRoot}/${window._essay}.md`
             if (this.externalWindow) { this.externalWindow.close() }
             this.externalWindow = window.open(url, '_blank', `toolbar=yes,location=yes,left=0,top=0,width=1300,height=1600,scrollbars=yes,status=yes`)
           },
