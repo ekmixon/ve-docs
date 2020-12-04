@@ -13,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/JSTOR-Labs/ve-docs/issues"
   },
-  "homepage": "https://github.com/JSTOR-Labs/ve-docs#readme"
+  "homepage": "https://github.com/JSTOR-Labs/ve-docs#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
 }
