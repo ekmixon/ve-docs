@@ -1,0 +1,17 @@
+{
+  "name": "ve-docs",
+  "version": "1.0.0",
+  "description": "Visual Essays Documentation",
+  "scripts": {
+    "serve": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSTOR-Labs/ve-docs.git"
+  },
+  "author": "JSTOR Labs",
+  "bugs": {
+    "url": "https://github.com/JSTOR-Labs/ve-docs/issues"
+  },
+  "homepage": "https://github.com/JSTOR-Labs/ve-docs#readme"
+}
