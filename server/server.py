@@ -8,8 +8,9 @@ logger = logging.getLogger()
 import os
 import re
 
-BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-SPARQL_DIR = os.path.join(BASE_DIR, 'sparql')
+SCRIPT_DIR = os.path.abspath(os.path.dirname(__file__))
+SPARQL_DIR = os.path.join(SCRIPT_DIR, 'sparql')
+BASE_DIR = os.path.dirname(SCRIPT_DIR)
 
 import json
 import getopt
@@ -173,8 +174,8 @@ def _enclosing_section(elem):
     return parent_section
 
 def _enclosing_section_id(elem, default=None):
-    _enclosing_section = _enclosing_section(elem)
-    return _enclosing_section.attrs['id'] if _enclosing_section and 'id' in _enclosing_section.attrs else default
+    section = _enclosing_section(elem)
+    return section.attrs['id'] if section and 'id' in section.attrs else default
 
 def _get_entity_data(qids):
     sparql = open(os.path.join(SPARQL_DIR, 'entities.rq'), 'r').read()
@@ -506,12 +507,12 @@ def _add_heading_ids(soup):
             if 'id' not in heading.attrs:
                 heading.attrs['id'] = slugify(heading.text)
 
-def _get_manifest(item):
+def _get_manifest(item, essay_path, acct, repo):
     logger.info(f'_get_manifest_iiifhosting {item}')
     if 'manifest' not in item:
         label_map = {'title': 'label', 'date': 'navDate'}
         data = {**dict([(label_map.get(k,k),item[k]) for k in item if k not in ('id', 'region', 'fit', 'hires', 'iiif-url', 'static', 'iiif', 'tag', 'tagged_in')]),
-                **{'acct': self.acct, 'repo': self.repo, 'essay': self.essay_path}}
+                **{'acct': acct, 'repo': repo, 'essay': essay_path}}
         data['iiif'] = 'true'
         logger.info(json.dumps(data))
         resp = requests.post('https://iiif-v2.visual-essays.app/manifest/', headers={'Content-type': 'application/json'}, json=data)
@@ -520,26 +521,33 @@ def _get_manifest(item):
     return item
 
 _manifests_cache = {}
-def _get_manifests(markup):
+def _get_manifests(markup, essay_path, acct='jstor-labs', repo='ve-docs'):
     global _manifests_cache
     with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
         futures = {}
         for item in markup.values():
             if item['tag'] == 'image':
                 if 'manifest' not in item and 'url' in item:
-                    mid = hashlib.sha256(f'{self.acct.lower()}{self.repo}{self.essay_path}{item["url"]}'.encode()).hexdigest()
+                    mid = hashlib.sha256(f'{acct.lower()}{repo}{essay_path}{item["url"]}'.encode()).hexdigest()
                     logger.info(f'{item["id"]} {item["tag"]} {mid} {mid in _manifests_cache}')
                     if mid in _manifests_cache:
                         item['manifest'] = _manifests_cache[mid]
                         continue
 
-                futures[executor.submit(_get_manifest, item)] = item['id']
+                futures[executor.submit(_get_manifest, item, essay_path, acct, repo)] = item['id']
 
         for future in concurrent.futures.as_completed(futures):
             item = future.result()
             if 'manifest' in item:
                 _manifests_cache[item['manifest'].split('/')[-1]] = item['manifest']
             logger.info(f'id={item["id"]} manifest={item.get("manifest")}')
+
+def _add_data(soup, markup):
+    data = soup.new_tag('script')
+    data.attrs['type'] = 'application/javascript'
+    data.attrs['data-ve-tags'] = ''
+    data.append('\nwindow.data = ' + json.dumps([markup[_id] for _id in sorted(markup)], indent=2) + '\n')
+    soup.html.body.append(data)
 
 def is_qid(s, ns_required=False):
     if not s or not isinstance(s, str): return False
@@ -549,7 +557,7 @@ def is_qid(s, ns_required=False):
     eid = split[-1]
     return len(eid) > 1 and eid[0] == 'Q' and eid[1:].isdecimal()
 
-def parse(html):
+def parse(html, md_path):
     soup = BeautifulSoup(html, 'html5lib')
     for comment in soup(text=lambda text: isinstance(text, Comment)):
         comment.extract()
@@ -559,7 +567,9 @@ def parse(html):
     _add_entity_classes(soup, markup)
     _remove_empty_paragraphs(soup)
     _add_heading_ids(soup)
-    _get_manifests(markup)
+    _get_manifests(markup, md_path)
+    _add_data(soup, markup)
+    return str(soup)
 
 def essay(path=None, **kwargs):
     global request
@@ -569,11 +579,12 @@ def essay(path=None, **kwargs):
     markdown, md_path = get_markdown(path=path, root=BASE_DIR, **kwargs)
     logger.info(md_path)
     html = markdown_to_html5(markdown, md_path)
+    html = parse(html, md_path)
     return html, 200
 
 def site(path=None, **kwargs):
     global request
-    with open(os.path.join(BASE_DIR, 'local-index.html'), 'r') as fp:
+    with open(os.path.join(SCRIPT_DIR, 'local-index.html'), 'r') as fp:
         html = fp.read()
         return html, 200
 
