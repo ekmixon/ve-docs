@@ -2,5 +2,5 @@ ports:
   - port: 8080
     onOpen: open-preview
 tasks:
-  - init: pip install -r requirements.txt
-    command: ./server.py -l info -s
+  - init: pip install -r server/requirements.txt
+    command: ./server/server.py -l info -s
