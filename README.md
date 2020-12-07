@@ -2,11 +2,9 @@
 
 # Visual Essays
 
-## Overview
+Visual Essays help tell stories and make arguments through a variety of emergent web-authoring capabilities. Visual essays make web writing simple by using [markdown](https://www.markdownguide.org/getting-started/) while also supporting expressive technologies like [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON), [knowledge graphs](https://en.wikipedia.org/wiki/Knowledge_graph), and the [International Image Interoperability Framework (IIIF)](https://en.wikipedia.org/wiki/International_Image_Interoperability_Framework). 
 
-Briefly describes what a visual essay is... an HTML page rendered from annotated markdown
-
-## Quick start
+# Quick start
 
 1. First, [sign up for a free Github account](https://github.com/join) if you don't have one yet 
 1. [Create your first visual essay in less than 5 minutes](quick-start.md)
@@ -26,6 +24,7 @@ Briefly describes what a visual essay is... an HTML page rendered from annotated
 
 ## For authors
 
+1. [A Gentle Introduction](authoring-intro.md)
 1. [Github basics](github.md)
 1. [Markdown and HTML basics](markup)
 1. [Data sources](data-sources.md)
