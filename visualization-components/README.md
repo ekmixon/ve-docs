@@ -2,6 +2,6 @@
 
 # Visualization components
 
-[Image viewer](image-viewer.md)
-[Map viewer](/visualization-components/image-viewer.md)
-[With nested README](folder-with-nested-README)
+[Image viewer](image-viewer.md)  
+[Map viewer](/visualization-components/image-viewer.md)  
+[With nested README](folder-with-nested-README)  
