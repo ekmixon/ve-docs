@@ -6,11 +6,11 @@ Visual Essays help researchers and students make complex arguments and tell comp
 
 Beyond markdown, the visual essay tool supports advanced web-authoring methods such as 
 
-* Mapping (using [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON))
-* Automatic Information Retrieval (using [knowledge graphs](https://en.wikipedia.org/wiki/Knowledge_graph))
-* Advanced Image Retrieval and Manipulation (using [International Image Interoperability Framework (IIIF)](https://en.wikipedia.org/wiki/International_Image_Interoperability_Framework))
+* Mapping (via [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON))
+* Automatic Information Retrieval (via [knowledge graphs](https://en.wikipedia.org/wiki/Knowledge_graph))
+* Advanced Image Retrieval and Manipulation (via [International Image Interoperability Framework (IIIF)](https://en.wikipedia.org/wiki/International_Image_Interoperability_Framework))
 
-For many, these technologies may seem too intimidating for academic writing, but the Visual Essay Tool (alongside this documentation) makes implementing these technologies feasible, particularly for humanists and those without formal computer training.
+For many academic writers, these technologies may seem too intimidating, but the Visual Essay Tool (alongside this documentation) makes implementing these technologies feasible, particularly for humanists and those without formal computer training. You don't need to have any experience with mapping, knowledge graphs, or programming to get started. We'll walk you through every step.
 
 # Quick start
 
