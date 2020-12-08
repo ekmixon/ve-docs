@@ -1,4 +1,4 @@
-[Home](../) | How to Write a Visual Essay | [Next -> (Markdown and HTML Basics)](markdown.md)
+[Home](../) | How to Write a Visual Essay | [Next -> (Learn Markdown in 30 Minutes)](markdown.md)
 ___
 # How to Write a Visual Essay
 
@@ -22,4 +22,4 @@ Additional data is typically sourced from Wikidata (the knowledge base behind Wi
 Maps are added with a special tag that defines the latitude, longitude, and zoom level. Visual layers can be added to the map through mapwarper tiles and GeoJSON feature layers.
 ____
 
-[Home](../) | How to Write a Visual Essay | [Next -> (Markdown and HTML Basics)](markdown.md)
+[Home](../) | How to Write a Visual Essay | [Next -> (Learn Markdown in 30 Minutes)](markdown.md)
