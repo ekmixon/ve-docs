@@ -1,4 +1,7 @@
-<a href="https://visual-essays.app"><img src="/ve-button.png"></a>
+
+
+[Home](../) | How to Write a Visual Essay | [Next -> (Markdown and HTML Basics)](markup.md)
+___
 
 # Essay markup
 
