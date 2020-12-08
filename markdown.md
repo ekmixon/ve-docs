@@ -23,6 +23,8 @@ In this quick lesson, we'll use a free online Markdown Editor called [Dillinger]
 
 A header is text that starts a new section, like a title. To create a large header, simply insert a hashtag (#) in front of the title. You can use additional hashtags for smaller headers. These are useful for creating sub-sections of a larger document. Try it in your editor!
 
+![Creating different size headers](headers.gif)
+
 # Add emphasis with italic and bold
 
 # Create bulleted lists
