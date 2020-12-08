@@ -17,13 +17,10 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 1. [Sign up for a free Github account](https://github.com/join)
 2. [Create a Visual Essay](quick-start.md)
 
-
-
-
 ## For authors
 
 1. [How to Write a Visual Essay](authoring-intro.md)
-1. [Markdown and HTML basics](markup)
+1. [Learn Markdown in 30 Minutes](markdown.md)
 1. [Data sources](data-sources.md)
 1. [Image annotation](annotation.md)
 1. [Components reference](visualization-components)
