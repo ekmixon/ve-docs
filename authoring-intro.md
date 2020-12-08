@@ -1,4 +1,4 @@
-Home | For Authors > How to Write a Visual Essay | [Next -> (Markdown and HTML Basics)](markup.md)
+[Home](../) | For Authors > How to Write a Visual Essay | [Next -> (Markdown and HTML Basics)](markup.md)
 ___
 # How to Write a Visual Essay
 
