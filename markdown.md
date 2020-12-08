@@ -22,6 +22,8 @@ In this quick lesson, we'll use a free online Markdown Editor called [Dillinger]
 
 A header is text that starts a new section, like a title. To create a large header, simply insert a hashtag (#) in front of the title. You can use additional hashtags for smaller headers. These are useful for creating sub-sections of a larger document. 
 
+> # Example Header
+
 ![Creating different size headers](headers.gif)
 
 # Add emphasis with italic and bold
@@ -59,7 +61,6 @@ Insert a horizontal rule by writing three underscores, asterisks, or hyphens in 
 Add a footnote by putting a caret followed by a number in a set of brackets. The number will turn into a hyperlink that brings readers to the appropriate footnote at the bottom of the page.
 
 At the bottom of the page, write the same footnote construction (a caret followed by a number in brackets) then a colon. Any text written after that will appear in the footnote at the bottom of the page. In this example, our footnote is a hyperlink to an article in *The Wall Street Journal*.
-This assertion requires a footnote. [^1]
 
 ![Adding a footnote](citation.gif)
 
