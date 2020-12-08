@@ -4,13 +4,13 @@
 
 Visual Essays help researchers and students make complex arguments and tell compelling stories using state-of-the-art tools for digital writing. The Visual Essay tool is approachable for beginners, using the [markdown](https://www.markdownguide.org/getting-started/) language that can be learned in 30 minutes or less. Markdown allows user to quickly write digital text with emphasis and basic structures such as lists, hyperlinks, images, and video. 
 
-Beyond markdown, the visual essay tool supports advanced web-authoring methods such as 
+At the same time, the visual essay tool supports advanced web-authoring methods such as:
 
 * Mapping (via [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON))
 * Automatic Information Retrieval (via [knowledge graphs](https://en.wikipedia.org/wiki/Knowledge_graph))
 * Advanced Image Retrieval and Manipulation (via [International Image Interoperability Framework (IIIF)](https://en.wikipedia.org/wiki/International_Image_Interoperability_Framework))
 
-For many academic writers, these technologies may seem too intimidating, but the Visual Essay Tool (alongside this documentation) makes implementing these technologies feasible, particularly for humanists and those without formal computer training. You don't need to have any experience with mapping, knowledge graphs, or programming to get started. We'll walk you through every step.
+While these technologies can seem intimidating, the Visual Essay Tool (alongside this documentation) makes implementing these technologies feasible for humanists and those without formal computer training. You don't need to have any experience with mapping, knowledge graphs, or programming to get started. We'll walk you through every step.
 
 # Quick start
 
