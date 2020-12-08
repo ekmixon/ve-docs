@@ -1,4 +1,5 @@
 How to Write a Visual Essay | [Next -> (Markdown and HTML Basics)](markup.md)
+___
 # How to Write a Visual Essay
 
 The main text content is written in plain text. Writers can use [markdown](https://www.markdownguide.org/getting-started/) for simple formatting.  External images, maps, and other data is linked to the text through the addition of specialized tags.
