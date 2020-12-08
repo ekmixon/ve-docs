@@ -31,10 +31,22 @@ A header is text that starts a new section, like a title. To create a large head
 # Add emphasis with italic and bold
 
 Italicize words by adding a single asterisk or underscore on each side.
-```*italic text*``` or ```_italic text_```
+```
+*italic text*
+``` 
+or 
+```
+_italic text_
+```
 
 Bold words by adding two asterisks or two underscores on each side.
-```**bold text**``` or ```__bold text__```
+```
+**bold text**
+```
+or 
+```
+__bold text__
+```
 
 ![Adding emphasis](emphasis.gif)
 
@@ -57,14 +69,18 @@ Create a bulleted using asterisks or a numbered list using numbers followed by p
 # Create hyperlinks
 
 Create hyperlinks by putting the link text in brackets and the link address in parentheses. 
-```Check out [JSTOR Labs](http://labs.jstor.org)```
+```
+Check out [JSTOR Labs](http://labs.jstor.org)
+```
 
 ![Creating a hyperlink](hyperlinks.gif)
 
 # Insert images
 
 Insert images by starting with an exclamation point, followed by an image description for accessibility in brackets, and finally put the address where the image is stored on a server into a set of parentheses.
-```![Description of image for accessibility](http://example.com/imagelocation.jpg)```
+```
+![Description of image for accessibility](http://example.com/imagelocation.jpg)
+```
 
 ![Inserting images](images.gif)
 
