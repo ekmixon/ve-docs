@@ -1,6 +1,4 @@
-
-
-[Home](../) | How to Write a Visual Essay | [Next -> (Markdown and HTML Basics)](markup.md)
+[Home](../) | [<- Previous How to Write a Visual Essay](authoring-intro.md) | Markdown and HTML Basics | 
 ___
 
 # Essay markup
@@ -17,3 +15,6 @@ ___
 
 1. `param`
 1. `span`
+
+___
+[Home](../) | [<- Previous How to Write a Visual Essay](authoring-intro.md) | Markdown and HTML Basics | 
