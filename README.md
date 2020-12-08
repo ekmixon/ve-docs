@@ -10,30 +10,19 @@ At the same time, the visual essay tool supports advanced web-authoring methods 
 * Automatic Information Retrieval (via [knowledge graphs](https://en.wikipedia.org/wiki/Knowledge_graph))
 * Advanced Image Retrieval and Manipulation (via [International Image Interoperability Framework (IIIF)](https://en.wikipedia.org/wiki/International_Image_Interoperability_Framework))
 
-While these technologies can seem intimidating, the Visual Essay Tool (alongside this documentation) makes implementing these technologies feasible for humanists and those without formal computer training. You don't need to have any experience with mapping, knowledge graphs, or programming to get started. We'll walk you through every step.
+While these technologies may seem intimidating at first, the Visual Essay Tool (alongside this documentation) makes implementing these technologies feasible for digital humanists as well as those without formal computer training. You don't need to have any experience with mapping, knowledge graphs, or programming to get started. We'll walk you through every step.
 
 # Quick start
 
-1. First, [sign up for a free Github account](https://github.com/join) if you don't have one yet 
-1. [Create your first visual essay in less than 5 minutes](quick-start.md)
+1. [Sign up for a free Github account](https://github.com/join)
+2. [Create a Visual Essay](quick-start.md)
 
-## When you're ready for more
 
-### Useful background and jargon
 
-1. [Knowledge graphs](knowledge-graphs.md)
-1. [IIIF (International Image Interoperability Framework)](iiif.md)
-1. ...
-
-### Samples
-
-1. [Simple map essay](samples/simple-map.md)
-1. [Simple image essay](samples/simple-image.md)
 
 ## For authors
 
-1. [A Gentle Introduction](authoring-intro.md)
-1. [Github basics](github.md)
+1. [How to Write a Visual Essay](authoring-intro.md)
 1. [Markdown and HTML basics](markup)
 1. [Data sources](data-sources.md)
 1. [Image annotation](annotation.md)
@@ -54,3 +43,14 @@ While these technologies can seem intimidating, the Visual Essay Tool (alongside
 
 1. [Lists of useful resources](resources)
 1. [Tips and tricks](tips)
+
+### Useful background and jargon
+
+1. [Knowledge graphs](knowledge-graphs.md)
+1. [IIIF (International Image Interoperability Framework)](iiif.md)
+1. ...
+
+### Samples
+
+1. [Simple map essay](samples/simple-map.md)
+1. [Simple image essay](samples/simple-image.md)
