@@ -20,12 +20,13 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 ## For authors
 
 1. [How to Write a Visual Essay](authoring-intro.md)
-1. [Learn Markdown in 30 Minutes](markdown.md)
-1. [Data sources](data-sources.md)
-1. [Image annotation](annotation.md)
-1. [Components reference](visualization-components)
-1. [Workflow process](author-workflow)
-1. [Troubleshooting](troubleshooting.md)
+2. [Learn Markdown in 30 Minutes](markdown.md)
+3. [Editing a Page in the Visual Essay Editor](ve-editor.md)
+4. [Creating and Editing Pages in GitHub](github-editor.md)
+5. [Linking Data Sources to Your Essay](linking-data.md)
+6. [Adding a Map to Your Essay](adding-maps.md)
+7. [Working with Map Layers](map-layers.md)
+8. [Annotating Images](annotating-images.md)
 
 ## For site administrators
 
