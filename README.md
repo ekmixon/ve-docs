@@ -37,16 +37,12 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 
 1. [How to create custom components](custom-components-howto)
 
-## Other
-
-1. [Lists of useful resources](resources)
-1. [Tips and tricks](tips)
-
 ### Useful background and jargon
 
 1. [Knowledge graphs](knowledge-graphs.md)
-1. [IIIF (International Image Interoperability Framework)](iiif.md)
-1. ...
+2. [Linked Open Data](lod.md)
+3. [IIIF (International Image Interoperability Framework)](iiif.md)
+
 
 ### Samples
 
