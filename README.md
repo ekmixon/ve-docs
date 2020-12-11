@@ -12,12 +12,13 @@ At the same time, the visual essay tool supports advanced web-authoring methods 
 
 While these technologies may seem intimidating at first, the Visual Essay Tool (alongside this documentation) makes implementing these technologies feasible for digital humanists as well as those without formal computer training. You don't need to have any experience with mapping, knowledge graphs, or programming to get started. We'll walk you through every step.
 
-# Quick start
+# Quick Start: Creating and Viewing Your Site
 
 1. [Sign up for a free Github account](https://github.com/join)
 2. [Create a Repository for your Site](create-repo.md)
+3. [Viewing your site](viewing-your-site.md)
 
-## For authors
+## Writing Content for your Site
 
 1. [How to Write a Visual Essay](authoring-intro.md)
 2. [Learn Markdown in 30 Minutes](markdown.md)
@@ -28,16 +29,8 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 7. [Working with Map Layers](map-layers.md)
 8. [Annotating Images](annotating-images.md)
 
-## For site administrators
 
-1. [Site setup](site-setup)
-1. [Publishing content](publishing-content)
-
-## For developers
-
-1. [How to create custom components](custom-components-howto)
-
-### Useful background and jargon
+## Key Technologies 
 
 1. [Knowledge graphs](knowledge-graphs.md)
 2. [Linked Open Data](lod.md)
