@@ -24,20 +24,17 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 2. [Learn Markdown in 30 Minutes](markdown.md)
 3. [Editing a Page in the Visual Essay Editor](ve-editor.md)
 4. [Creating and Editing Pages in GitHub](github-editor.md)
+> [A Simple Image Essay](samples/image-essay.md) 
 5. [Linking Data Sources to Your Essay](linking-data.md)
 6. [Adding a Map to Your Essay](adding-maps.md)
+> [A Simple Map Essay](samples/simple-map.md)
 7. [Working with Map Layers](map-layers.md)
+> [An Map with Layers](samples/simple-map-with-layers.md)
 8. [Annotating Images](annotating-images.md)
 
-
-## Key Technologies 
+## More About the Technologies behind the Visual Essay Tool
 
 1. [Knowledge graphs](knowledge-graphs.md)
 2. [Linked Open Data](lod.md)
 3. [IIIF (International Image Interoperability Framework)](iiif.md)
 
-
-### Samples
-
-1. [Simple map essay](samples/simple-map.md)
-1. [Simple image essay](samples/simple-image.md)
