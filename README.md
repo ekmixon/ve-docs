@@ -15,7 +15,7 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 # Quick start
 
 1. [Sign up for a free Github account](https://github.com/join)
-2. [Create a Visual Essay](quick-start.md)
+2. [Create a Repository for your Site](create-repo.md)
 
 ## For authors
 
