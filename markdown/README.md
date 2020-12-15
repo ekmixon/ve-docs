@@ -5,13 +5,13 @@ ___
 
 Markdown is a simple way to format text. It allows you to mark text, so that it has basic formatting. In this short tutorial, we'll show you how to use markdown to do the following:
 
-* Create Headers/Titles
-* Add emphasis with italic and bold
-* Create lists (bulleted and numbered)
-* Create hyperlinks
-* Insert images
-* Insert a horizontal rule/divider
-* Add footnotes
+* [Create Headers/Titles](#headers)
+* [Add emphasis with italic and bold](#emphasis)
+* [Create lists (bulleted and numbered)](#lists)
+* [Create hyperlinks](#links)
+* [Insert images](#images)
+* [Insert a horizontal rule/divider](#dividers)
+* [Insert footnotes](#footnotes)
 
 # Viewing Your Writing in a Markdown Editor
 
@@ -19,7 +19,7 @@ In this quick lesson, we'll use a free online Markdown Editor called [Dillinger]
 
 ![Deleting all the text in left box of Dillinger](delete-left-box.gif)
 
-# Create Headers/Titles
+# Create Headers/Titles<a name="headers"></a>
 
 A header is text that starts a new section, like a title. To create a large header, simply insert a hashtag (#) in front of the title. You can use additional hashtags for smaller headers. These are useful for creating sub-sections of a larger document. 
 
@@ -29,7 +29,7 @@ A header is text that starts a new section, like a title. To create a large head
 
 ![Creating different size headers](headers.gif)
 
-# Add emphasis with italic and bold
+# Add emphasis with italic and bold<a name="emphasis"></a>
 
 Italicize words by adding a single asterisk or underscore on each side.
 ```
@@ -51,7 +51,7 @@ __bold text__
 
 ![Adding emphasis](emphasis.gif)
 
-# Create lists (bulleted and numbered)
+# Create lists (bulleted and numbered)<a name="lists"></a>
 
 Create a bulleted list using asterisks. Create a numbered list using numbers followed by periods.
 
@@ -67,7 +67,7 @@ Create a bulleted list using asterisks. Create a numbered list using numbers fol
 
 ![Creating lists](bullets.gif)
 
-# Create hyperlinks
+# Create hyperlinks<a name="links"></a>
 
 Create hyperlinks by putting the link text in brackets and the link address in parentheses. 
 ```
@@ -76,7 +76,7 @@ Check out [JSTOR Labs](http://labs.jstor.org)
 
 ![Creating a hyperlink](hyperlinks.gif)
 
-# Insert images
+# Insert images<a name="images"></a>
 
 Insert images by starting with an exclamation point, followed by an image description for accessibility in brackets, and finally put the address where the image is stored on a server into a set of parentheses.
 ```
@@ -85,7 +85,7 @@ Insert images by starting with an exclamation point, followed by an image descri
 
 ![Inserting images](images.gif)
 
-# Insert a horizontal rule/divider
+# Insert a horizontal rule/divider<a name="dividers"></a>
 
 Insert a horizontal rule by writing three underscores, asterisks, or hyphens in a row.
 ```
@@ -96,7 +96,7 @@ ___
 
 ![Insert a horizontal rule](hrule.gif)
 
-# Insert footnote
+# Insert footnote<a name="footnotes"></a>
 
 Add a footnote by putting a caret followed by a number in a set of brackets. The number will turn into a hyperlink that brings readers to the appropriate footnote at the bottom of the page.
 
