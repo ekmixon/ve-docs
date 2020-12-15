@@ -42,3 +42,6 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 2. [Linked Open Data](lod.md)
 3. [IIIF (International Image Interoperability Framework)](iiif.md)
 
+# Reference
+
+[Visual essay tags](visual-essay-tags)
