@@ -10,4 +10,5 @@
 5. Confirm that the repository is public. 
 6. Check the box under "Add a README file"
 7. Finally, create the repository.
-![Animated image of the repo creation process](create-repo.gif)
+
+![Steps 3-7 for creating a repository](create-repo.gif)
