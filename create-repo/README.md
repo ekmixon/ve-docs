@@ -5,9 +5,9 @@
 
 ![The "new" button in github](new-repo.png)
 
-3. Create a "Repository Name" without spaces for your repository.
-4. Write a description (optional)
-5. Make sure the repository is public. 
-6. Check "Add a README file"
+3. Create a "Repository name" without spaces.
+4. Optionally, add a description.
+5. Confirm that the repository is public. 
+6. Check the box under "Add a README file"
 7. Finally, create the repository.
 ![Animated image of the repo creation process](create-repo.gif)
