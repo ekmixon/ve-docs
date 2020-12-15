@@ -52,7 +52,7 @@ __bold text__
 
 # Create lists (bulleted and numbered)
 
-Create a bulleted using asterisks or a numbered list using numbers followed by periods.
+Create a bulleted list using asterisks. Create a numbered list using numbers followed by periods.
 
 ```
 * Bullet item 1
