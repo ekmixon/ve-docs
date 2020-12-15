@@ -16,7 +16,7 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 
 1. [Sign up for a free Github account](https://github.com/join)
 2. [Create a Repository for your Site](create-repo)
-3. [Viewing your site](viewing-your-site.md)
+3. [Viewing your site](view-site)
 
 ## Writing Content for your Site
 
