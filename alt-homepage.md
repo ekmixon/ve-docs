@@ -1,4 +1,4 @@
-<a href="https://visual-essays.app"><img src="/ve-button.png"></a>
+<a href="https://visual-essays.app"><img src="/images/ve-button.png"></a>
 
 <param ve-config title="Visual Essays Documentation"
        show-abstracts="true"

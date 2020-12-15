@@ -1,4 +1,4 @@
-<a href="https://visual-essays.app"><img src="/ve-button.png"></a>
+<a href="https://visual-essays.app"><img src="/images/ve-button.png"></a>
 
 The Visual Essay Tool helps academic researchers compose articles using state-of-the-art digital methods such as mapping, automatic information retrieval, and advanced image linking algorithms. It is developed by [JSTOR Labs](http://labs.jstor.org). The tool is used in projects such as:
 
