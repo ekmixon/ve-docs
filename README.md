@@ -19,7 +19,7 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 
 # Writing Content for your Site
 
-1. [An Introduction to the Visual Essay Tool](authoring-intro.md)
+1. [An Introduction to the Visual Essay Tool](authoring-intro)
 2. [Learn Markdown in 30 Minutes](markdown)
 3. [Creating and Editing Pages in GitHub](github-editor.md)
 
