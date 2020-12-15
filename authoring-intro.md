@@ -6,8 +6,6 @@ We have constructed a (very plain) visual essay site based on a single document:
 
 > http://visual-essay.app/your-github-username/your-repo-name
 
-(It is possible to render your site on a custom domain. Contact us for direction here.)
-
 Each unique page in your site will be based on a single Markdown (.md) file. Using Markdown is a way to add basic formatting to each page, including emphasis, lists, and links. If you're not familiar with Markdown, we describe how to use it in the next section. Even if you have never coded before, you should be able to pick up the basics in about 30 minutes. If you've learned HTML before, you'll pick it up even faster.
 
 In addition to Markdown, we'll show you how to add images, maps, and other data to your essays. Authors can add visualization such as:
