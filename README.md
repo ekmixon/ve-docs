@@ -12,11 +12,10 @@ At the same time, the visual essay tool supports advanced web-authoring methods 
 
 While these technologies may seem intimidating at first, the Visual Essay Tool (alongside this documentation) makes implementing these technologies feasible for digital humanists as well as those without formal computer training. You don't need to have any experience with mapping, knowledge graphs, or programming to get started. We'll walk you through every step.
 
-# Quick Start: Creating and Viewing Your Site
+# Quick Start: Create Your Site in 2 Steps
 
 1. [Sign up for a free Github account](https://github.com/join)
 2. [Create a Repository for your Site](create-repo)
-3. [Viewing your site](view-site)
 
 ## Writing Content for your Site
 
