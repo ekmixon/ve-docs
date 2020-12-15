@@ -9,20 +9,20 @@
 ##
 [**Getting started**](quick-start.md)
 
-![](/books.jpg)
+![](/images/books.jpg)
 
 Quick start guide
 
 ##
 [**Information for authors**](for-authors.md)
 
-![](/books.jpg)
+![](/images/books.jpg)
 
 Tutorials and reference materials for essay authors.
 
 ##
 [**Information for developers**](for-developers.md)
 
-![](/books.jpg)
+![](/images/books.jpg)
 
 Tutorials and reference materials for component developers.
