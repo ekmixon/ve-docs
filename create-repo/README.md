@@ -5,7 +5,7 @@
 
 ![The "new" button in github](new-repo.png)
 
-3. Create a name without spaces for your repository.
+3. Create a "Repository Name" without spaces for your repository.
 4. Write a description (optional)
 5. Make sure the repository is public. 
 6. Check "Add a README file"
