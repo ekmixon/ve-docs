@@ -11,6 +11,7 @@ Markdown is a simple way to format text. It allows you to mark text, so that it 
 * Create hyperlinks
 * Insert images
 * Insert a horizontal rule/divider
+* Add footnotes
 
 # Viewing Your Writing in a Markdown Editor
 
