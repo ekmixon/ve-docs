@@ -17,7 +17,7 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 1. [Sign up for a free Github account](https://github.com/join)
 2. [Create a Repository for your Site](create-repo)
 
-## Writing Content for your Site
+# Writing Content for your Site
 
 1. [An Introduction to the Visual Essay Tool](authoring-intro.md)
 2. [Learn Markdown in 30 Minutes](markdown)
