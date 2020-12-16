@@ -3,6 +3,7 @@
 * Creating a New Page on GitHub.com
 * Logging into your GitHub Account from your Website
 * Editing a Single Page Quickly from your Website
+* Deleting a Repository (and Site)
 
 
 # Viewing your Website Files on GitHub.com
@@ -37,8 +38,14 @@ After committing changes, they will appear (almost instantly) on your site.
 
 # Creating a New Page on GitHub.com
 
-Now that you have created changes on the main page of your site, you may be ready to create another page. To create another page
+Now that you have created changes on the main page of your site, you may be ready to create another page. The content for your main page is inside the `README.md` file in the root (or main/bottom) directory of your repository. To create another page for your site, we will create a new `README.md` file inside a new directory/folder.
+
+To create a new directory and `README.md`, start at the root directory of your repository. Click on "Add file" then choose "Create new file."
+
+![Creating a New Page](create-new-page.gif)
 
 # Logging into your GitHub Account from your Website
 
 # Editing a Single Page Quickly from your Website
+
+# Deleting a Repository (and Site)
