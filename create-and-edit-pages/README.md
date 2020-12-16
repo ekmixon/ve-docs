@@ -40,9 +40,13 @@ After committing changes, they will appear (almost instantly) on your site.
 
 Now that you have created changes on the main page of your site, you may be ready to create another page. The content for your main page is inside the `README.md` file in the root (or main/bottom) directory of your repository. To create another page for your site, we will create a new `README.md` file inside a new directory/folder.
 
-To create a new directory and `README.md`, start at the root directory of your repository. Click on "Add file" then choose "Create new file."
+To create a new directory and `README.md`, start at the root directory of your repository. Click on "Add file" then choose "Create new file." Supply a folder name followed by a forward slash (/) then add the file name `README.md`. Finally, add any content you wish to the new page. When you commit changes, the folder and the `README.md` file will be created.
 
 ![Creating a New Page](create-new-page.gif)
+
+If you would like to link your main page to this new page, create a hyperlink using Markdown. The link would look something like:
+
+`Check out this [research essay](new-page)` where `new-page` is the name of the folder. There is no need to include `README.md` at the end of your link.
 
 # Logging into your GitHub Account from your Website
 
