@@ -6,6 +6,6 @@
     "ref": "main",
     "logo": "/images/labs.jpg",
     "favicon": "/images/favicon.ico",
-    "css": "/css/docs.css",
+    "css": "https://cdn.jsdelivr.net/gh/jstor-labs/ve-docs@main/css/docs.css",
     "nav": []
 }
