@@ -25,7 +25,7 @@ Once inside the editor, you can write using plain-text, including Markdown. The 
 
 !["Edit File" and "Preview Changes"](preview-changes.png)
 
-When you preview changes, any text you have a **deleted** will also be shown but noted with a **red indicator**. The text you are adding will indicated in **green**.
+When you preview changes, any text you have a **deleted** will also be shown but noted with a **red indicator**. The text you are adding will be indicated in **green**.
 
 ![Preview and Commit Changes](making-changes-in-github.gif)
 
