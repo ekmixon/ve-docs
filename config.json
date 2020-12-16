@@ -5,6 +5,7 @@
     "repo": "ve-docs",
     "ref": "main",
     "logo": "/images/labs.jpg",
-    "favicon": "/imagesfavicon.ico",
+    "favicon": "/images/favicon.ico",
+    "css": "/css/docs.css",
     "nav": []
 }
