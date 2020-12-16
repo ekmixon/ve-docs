@@ -3,8 +3,6 @@
 * Creating a New Page on GitHub.com
 * Logging into your GitHub Account from your Website
 * Editing a Single Page Quickly from your Website
-* Deleting a Repository (and Site)
-
 
 # Viewing your Website Files on GitHub.com
 
@@ -46,10 +44,26 @@ To create a new directory and `README.md`, start at the root directory of your r
 
 If you would like to link your main page to this new page, create a hyperlink using Markdown. The link would look something like:
 
-`Check out this [research essay](new-page)` where `new-page` is the name of the folder. There is no need to include `README.md` at the end of your link.
+`Check out this [research essay](new-page)` 
+where `new-page` is the name of the directory/folder. (There is no need to include `README.md` at the end of your link address.)
 
 # Logging into your GitHub Account from your Website
 
+Once a page has been created, we have created a simple interface for editing built directly into your website. Navigate to your website at:
+
+>https://visual-essays.app/your-user-name/your-repo-name
+
+Click on the "hamburger menu" (the set of three horizontal lines) in the upper, lefthand corner and choose "Login." 
+
+![Hamburger Menu](hamburger.png)
+
+Supply your login information for your github account. This information will be saved, making it easy to edit any page on your site quickly.
+
 # Editing a Single Page Quickly from your Website
 
-# Deleting a Repository (and Site)
+1. Complete the previous step "Logging into your GitHub Account from your Website." 
+2. Navigate to the particular web page you would like to edit.
+3. Click the hamburger icon ![Hamburger Menu](hamburger.png)
+4. Choose "Edit Page"
+5. An editor page will appear allowing you to quickly make any changes.
+6. Remember to commit changes!
