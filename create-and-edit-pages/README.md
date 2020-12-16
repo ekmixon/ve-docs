@@ -1,3 +1,10 @@
+* Viewing your Website Files on GitHub.com
+* Editing your Website Files on GitHub.com
+* Creating a New Page on GitHub.com
+* Logging into your GitHub Account from your Website
+* Editing a Single Page Quickly from your Website
+
+
 # Viewing your Website Files on GitHub.com
 
 The files for your website can be found in your account on github.com. To see your website files, log into your account at [GitHub.com](https://github.com). Then choose the repo you are currently working on. The address that shows the files in your repo will look like:
@@ -31,6 +38,3 @@ Each time you "Commit Changes," GitHub will save a version of your website. If y
 # Logging into your GitHub Account from your Website
 
 # Editing a Single Page Quickly from your Website
-
-# Creating a New Page
-
