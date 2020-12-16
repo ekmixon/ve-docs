@@ -1,6 +1,6 @@
 # Viewing your Website Files on GitHub.com
 
-The files for your website can be found in your github.com. To see them, log into your account at [GitHub.com](https://github.com). Then choose the repo you are currently working on. The address that shows the files in your repo will look like:
+The files for your website can be found in your account on github.com. To see your website files, log into your account at [GitHub.com](https://github.com). Then choose the repo you are currently working on. The address that shows the files in your repo will look like:
 > http://github.com/your-user-name/your-repo-name
 
 ![GitHub files in a new repo](github-new-repo.png)
