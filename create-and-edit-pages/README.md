@@ -14,17 +14,17 @@ If you edit the content of a file in your GitHub repository, it will be reflecte
 
 ![Click on the pencil to edit](edit-readme.png)
 
-Once inside the editor, you can write using plain-text, including Markdown. The editor has two panes, "Edit file" and "Preview Changes." Previewing changes is a handy way to make sure that your Markdown is rendering in the way you intended.
+Once inside the editor, you can write using plain-text, including Markdown. The editor has two panes, "Edit file" and "Preview Changes." Previewing changes is a handy way to make sure that your Markdown will render in the way you intended.
 
 !["Edit File" and "Preview Changes"](preview-changes.png)
 
-When you finish making changes, scroll to the bottom of the screen to "Commit Changes." If you have made significant changes, it is helpful to place a short description of the changes made. Finally, click the green button "Commit Changes" to save your work. 
+When you preview changes, anything you have added will have green indicator to the left. Any text that has been deleted will be indicated in red.
+
+![Preview and Commit Changes](making-changes-in-github.gif)
+
+When you finish making changes, scroll to the bottom of the screen to "Commit Changes." If you have made significant changes, it is helpful to place a short description of the changes made. Finally, click the green button "Commit Changes" to save your work.
 
 Each time you "Commit Changes," GitHub will save a version of your website. If you make a major mistake (deleting a file, overwriting important text, etc.), any of the previous versions of your website can be recovered. The recovery process is beyond this tutorial, but the important thing to know is that your site is being saved each and every time you commit changes.
-
-
-
-
 
 # Creating a New Page on GitHub.com
 
