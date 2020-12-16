@@ -33,7 +33,11 @@ When you finish making changes, scroll to the bottom of the screen to "Commit Ch
 
 Each time you "Commit Changes," GitHub will save a version of your website. If you make a major mistake (deleting a file, overwriting important text, etc.), any of the previous versions of your website can be recovered. The recovery process is beyond this tutorial, but the important thing to know is that your site is being saved each and every time you commit changes.
 
+After committing changes, they will appear (almost instantly) on your site.
+
 # Creating a New Page on GitHub.com
+
+Now that you have created changes on the main page of your site, you may be ready to create another page. To create another page
 
 # Logging into your GitHub Account from your Website
 
