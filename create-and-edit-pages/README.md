@@ -65,5 +65,5 @@ Supply your login information for your github account. This information will be 
 2. Navigate to the particular web page you would like to edit.
 3. Click the hamburger icon ![Hamburger Menu](hamburger.png)
 4. Choose "Edit Page"
-5. An editor page will appear allowing you to quickly make any changes.
+5. An editor window will appear allowing you to quickly make any changes.
 6. Remember to commit changes!
