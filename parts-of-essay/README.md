@@ -20,10 +20,29 @@ To make these new features possible, a visual essay relies on some level of codi
 
 The structure of a visual essay is similar to a traditional printed essay with some key differences. First, it begins with a basic configuration tag that specifies the nature of the page/essay for the reader.
 
-# The `param ve-config` Tag
+# The Configuration Tag
 
+The `param ve-config` tag is not technically required for an essay to render, but it supplies some crucial information that any serious essay is likely to include. The form of the configuration tag is:
 
+`<param ve-config
+    attribute1="value for this attribute"
+    attribute2="value for this attribute"
+    ...
+    finalattribute="value for this attribute">`
 
-The param ve-config tag is not technically required for an essay to render, but it supplies some crucial information that any serious essay is likely to include. 
+Note that the tag begins with a left caret (<) and ends with a right caret after the final attribute (>). 
 
-*
+![An example configuration tag](config-tag)
+
+The value for a given attribute is always enclosed in double quotations marks ("). In this example we can see the following *attributes* are defined for this essay:
+
+|Attribute|Description of the value|
+|---|---|
+|title|The title of your essay|
+|banner|The URL of the image that will appear in your banner. Ideally, this image is very wide but not very tall.|
+|layout|Specify a vertical essay with `vtl`|
+|num-maps|The number of maps in your essay.|
+|num-images|The number of images in your essay.|
+|num-primary-sources|The number of primary sources in your essay.|
+|author|That's probably you!|
+
