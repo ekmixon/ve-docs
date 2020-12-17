@@ -18,7 +18,12 @@ Those parts can also be found in visual essays, but visual essays have additiona
 
 To make these new features possible, a visual essay relies on some level of coding that describes for readers what should appear on the screen at any given time. Our goal in creating the Visual Essay Tool has been to balance the performative possibilities of your essay with the complexity of code. In doing so, we have sought to make the technical hurdle of writing code as accessible as possible, preferring to hide messy details that are likely to be prove unproductive. At the same time, we have sought to expose the capabilities of the code when we recognize they could very helpful for making visual arguments. We learn this from the authors themselves as they write their essays. So if you feel like you wish your essay be customized just a little more, please reach out!
 
-The structure of a visual essay is similar to a traditional printed essay with some key differences. First, it begins with a basic configuration tag that specifies some basic information about how to display the essay to readers.
+The structure of a visual essay is similar to a traditional printed essay with some key differences. It has the following parts:
+
+1. **Configuration Tag** Contains basic information about the essay such as title, author, and visual features
+2. **Linked Data Tags** The concepts in the essay that have linked open data attached to them.
+3. **Body** The main text of the essay broken up into sections by headings. Each heading can have visualizations attached such as images and maps. When the reader scrolls to the next heading, the visualizations are automatically replaced.
+4. **References** The section holding all the footnotes for the essay. These footnotes could be in any citation format and may include direct links to other sources.
 
 # The Configuration Tag
 
