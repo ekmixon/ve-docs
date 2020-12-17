@@ -1,6 +1,6 @@
 # The Parts of an Essay
 
-While not all essays written for print are the same, they usually share similar parts:
+While not all essays written for print are the same, they usually share some, if not all, of these parts:
 
 * A Title
 * An Author
@@ -9,26 +9,27 @@ While not all essays written for print are the same, they usually share similar 
 * Paragraphs
 * Footnotes/Endnotes/References
 
-All of these parts can be found in visual essays, but there are also additional elements:
+Those parts can also be found in visual essays, but visual essays have additional parts that authors must construct such as:
 
 * Images and Image Galleries
 * Maps and Layers
-* References that Connect to Linked Open Data
+* Linked Open Data
 * Network Graphs
 
-To make these new features possible, a visual essay relies on some level of coding that describes for readers what should appear on the screen at any given time. Our goal in creating the Visual Essay Tool has been to balance the performative possibilities of your essay with the complexity of code. In doing so, we have sought to make the technical hurdle of writing code as accessible as possible, preferring to hide messy details that are likely to be unproductive for authors and expose layers that could prove helpful for making visual arguments.
+To make these new features possible, a visual essay relies on some level of coding that describes for readers what should appear on the screen at any given time. Our goal in creating the Visual Essay Tool has been to balance the performative possibilities of your essay with the complexity of code. In doing so, we have sought to make the technical hurdle of writing code as accessible as possible, preferring to hide messy details that are likely to be prove unproductive. At the same time, we have sought to expose the capabilities of the code when we recognize they could very helpful for making visual arguments. We learn this from the authors themselves as they write their essays. So if you feel like you wish your essay be customized just a little more, please reach out!
 
-The structure of a visual essay is similar to a traditional printed essay with some key differences. First, it begins with a basic configuration tag that specifies the nature of the page/essay for the reader.
+The structure of a visual essay is similar to a traditional printed essay with some key differences. First, it begins with a basic configuration tag that specifies some basic information about how to display the essay to readers.
 
 # The Configuration Tag
 
-The `param ve-config` tag is not technically required for an essay to render, but it supplies some crucial information that any serious essay is likely to include. The form of the configuration tag is:
+The `param ve-config` tag is not technically required for an essay to render, but it supplies crucial information that any serious essay would include. The form of the configuration tag is:
 
-`<param ve-config
+```<param ve-config
     attribute1="value for this attribute"
     attribute2="value for this attribute"
     ...
-    finalattribute="value for this attribute">`
+    finalattribute="value for this attribute">```
+
 
 Note that the tag begins with a left caret (<) and ends with a right caret after the final attribute (>). 
 
