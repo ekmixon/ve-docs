@@ -22,7 +22,7 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 1. [An Introduction to the Visual Essay Tool](authoring-intro)
 2. [Learn Markdown in 30 Minutes](markdown)
 3. [Creating and Editing Pages in GitHub](create-and-edit-pages)
-4. [Main Parts an Essay](parts-of-essay)
+4. [The Parts of a Visual Essay](parts-of-essay)
 5. [Starting an Essay](starting-an-essay)
 6. [Adding Images to your Site](create-images)
 7. [Linking Data Sources to Your Essay](linking-data.md)
