@@ -34,13 +34,13 @@ The value for a given attribute is always enclosed in double quotations marks ("
 
 |Attribute|Description of the value|Effect for Readers|
 |---|---|---|
-|title|The title of your essay|Your title will be displayed at the top of your essay|
-|banner|The URL of your banner image|A banner will be displayed at the top of your essay|
+|title|The title of your essay|Displayed at the top of your essay|
+|banner|The URL of your banner image|Displayed at the top of your essay|
 |layout|Specify a vertical essay with `vtl`|Your essay will use a vertical orientation|
-|num-maps|The number of maps in your essay will be displayed|
-|num-images|The number of images in your essay will be displayed|
-|num-primary-sources|The number of primary sources in your essay will be displayed|
-|author|That's probably you!| The author's name is displayed at the top of the essay.|
+|num-maps|The number of maps in your essay|Displayed at the top of your essay|
+|num-images|The number of images in your essay|Displayed at the top of your essay|
+|num-primary-sources|The number of primary sources in your essay|Displayed at the top of your essay|
+|author|That's probably you!|Displayed at the top of your essay|
 
 # Linked Open Data Tags
 
