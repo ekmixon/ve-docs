@@ -24,26 +24,23 @@ The structure of a visual essay is similar to a traditional printed essay with s
 
 The `param ve-config` tag is not technically required for an essay to render, but it supplies crucial information that any serious essay would include. The form of the configuration tag is:
 
-```<param ve-config
-    attribute1="value for this attribute"
-    attribute2="value for this attribute"
-    ...
-    finalattribute="value for this attribute">```
+`<param ve-config attribute1="value for this attribute">`
 
-
-Note that the tag begins with a left caret (<) and ends with a right caret after the final attribute (>). 
+Note that the tag begins with a left caret (<) and ends with a right caret after the final attribute (>). It can contain multiple attribute/value pairs. Each attribute can be spaced out on a single line, but they are often clearer when formed into a vertical list like so:
 
 ![An example configuration tag](config-tag.png)
 
 The value for a given attribute is always enclosed in double quotations marks ("). In this example we can see the following *attributes* are defined for this essay:
 
-|Attribute|Description of the value|
-|---|---|
-|title|The title of your essay|
-|banner|The URL of the image that will appear in your banner. Ideally, this image is very wide but not very tall.|
-|layout|Specify a vertical essay with `vtl`|
-|num-maps|The number of maps in your essay.|
-|num-images|The number of images in your essay.|
-|num-primary-sources|The number of primary sources in your essay.|
-|author|That's probably you!|
+|Attribute|Description of the value|Effect for Readers|
+|---|---|---|
+|title|The title of your essay|Your title will be displayed at the top of your essay|
+|banner|The URL of your banner image|A banner will be displayed at the top of your essay|
+|layout|Specify a vertical essay with `vtl`|Your essay will use a vertical orientation|
+|num-maps|The number of maps in your essay will be displayed|
+|num-images|The number of images in your essay will be displayed|
+|num-primary-sources|The number of primary sources in your essay will be displayed|
+|author|That's probably you!| The author's name is displayed at the top of the essay.|
+
+# Linked Open Data Tags
 
