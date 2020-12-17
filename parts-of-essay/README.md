@@ -32,7 +32,7 @@ The `param ve-config` tag is not technically required for an essay to render, bu
 
 Note that the tag begins with a left caret (<) and ends with a right caret after the final attribute (>). 
 
-![An example configuration tag](config-tag)
+![An example configuration tag](config-tag.png)
 
 The value for a given attribute is always enclosed in double quotations marks ("). In this example we can see the following *attributes* are defined for this essay:
 
