@@ -23,11 +23,10 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 2. [Learn Markdown in 30 Minutes](markdown)
 3. [Creating and Editing Pages in GitHub](create-and-edit-pages)
 4. [The Parts of a Visual Essay](parts-of-essay)
-5. [Starting an Essay](starting-an-essay)
-6. [Adding Images to your Site](create-images)
-7. [Linking Data Sources to Your Essay](linking-data.md)
-8. [Adding a Map to Your Essay](adding-maps.md)
-9. [Working with Map Layers](map-layers.md)
+5. [Adding Images to your Site](create-images)
+6. [Linking Data Sources to Your Essay](linking-data.md)
+7. [Adding a Map to Your Essay](adding-maps.md)
+8. [Working with Map Layers](map-layers.md)
 
 ## More About the Technologies behind the Visual Essay Tool
 
