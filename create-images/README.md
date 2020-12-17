@@ -29,6 +29,6 @@ This approach may make sense if you have an image whose rights are cleared, but 
 
 ## Making an Uploaded Image the Banner for your Website
 
-A banner image is configured in 
+Height is 400px.  Width varies of course.  I typically crop banners at 400px height and 1200 - 1600 width.  The images are scaled to fit so it’s not super important to be precise.  As a recommendation I think 1200w x 400h is probably a good rule of thumb to use.  Ideally these would be jpegs with a quality level set such that the resulting image file was 150kb or less to minimize page load times. 
 
 ## Making an Uploaded Image the Banner for a Single Page/Essay
