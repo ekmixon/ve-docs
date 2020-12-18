@@ -94,5 +94,18 @@ The concept of a section is important, not just for guiding readers, but for det
 
 # References
 
+The final section of a visual essay contains any academic references. From a print perspective, these serve the same purpose as footnotes connecting readers to additional text (and sometimes resources) that are significant for research purposes but were not able to be included in the main body. A footnote is inserted into the body of the text using the basic form:
 
- 
+`This assertion has been proven by other researchers.[^ref1]`
+
+Additional footnotes can be included simply by incrementing the number to `[^ref2]`, `[^ref3]`, and so on. This will create a small link in the text in the form of a matching superscript number. If the reader clicks on that number, it will take them to reference at the bottom of the page.
+
+The Reference is a distinct section, so it must begin with a new heading. The title is usually "References" but it could be "Footnotes" or some other name. 
+
+For each reference in the body, a corresponding reference is placed in the final references section that takes the form:
+
+`[^ref1]: See also the research of Smith, James, and Royster.`
+
+The only difference from the reference in the body is the inclusion of a colon. References can simply point to print sources, but they may also include links to online articles, videos, images, and other materials.
+
+ ![An example references section](references.png)
