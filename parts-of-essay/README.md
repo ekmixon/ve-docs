@@ -66,6 +66,8 @@ Generally, the list of linked data entity tags are added above the body while (o
 
 `<param title="name-used-in-essay" eid="digital-identifier-number" aliases="other-names-used-in-essay">`
 
+![An example of linked data entity tags](linked-entities.png)
+
 Occasionally, you may also see an entity tag include attributes such as `fill` and `marker-symbol`. These are used to describe the color and form of map markers, and they are described in more detail in the mapping section.
 
 |Attribute|Description|Effect for Readers|
