@@ -1,6 +1,6 @@
 # The Parts of an Essay
 
-While not all essays written for print are the same, they usually share some, if not all, of these parts:
+Essays written for print often share similar parts, such as:
 
 * A Title
 * An Author
@@ -9,21 +9,21 @@ While not all essays written for print are the same, they usually share some, if
 * Paragraphs
 * Footnotes/Endnotes/References
 
-Those parts can also be found in visual essays, but visual essays have additional parts that authors must construct such as:
+All of those parts can also be found in visual essays, but also include features such as:
 
 * Images and Image Galleries
 * Maps and Layers
 * Linked Open Data
 * Network Graphs
 
-To make these new features possible, a visual essay relies on some level of coding that describes for readers what should appear on the screen at any given time. Our goal in creating the Visual Essay Tool has been to balance the performative possibilities of your essay with the complexity of code. In doing so, we have sought to make the technical hurdle of writing code as accessible as possible, preferring to hide messy details that are likely to be prove unproductive. At the same time, we have sought to expose the capabilities of the code when we recognize they could very helpful for making visual arguments. We learn this from the authors themselves as they write their essays. So if you feel like you wish your essay be customized just a little more, please reach out!
+To create these features, a visual essay depends on some level of coding that describes for readers what should appear on the screen at any given time. Our goal in creating the Visual Essay Tool has been to balance the performative possibilities of your essay with the complexity of code. In doing so, we have sought to tuck code under the hood that the average scholar may find overwhelming, yet sufficiently expose the levers and buttons that are likely to help make sophisticated arguments. We create this balance—between accessibility and complexity—from author feedback. So please reach out if you feel like we're holding you back!
 
-The structure of a visual essay is similar to a traditional printed essay with some key differences. It has the following parts:
+The structure of a visual essay is very similar to a traditional printed essay. They begin with descriptive data, transition into the argument body, and end with references. Here are the parts you can expect to see in the order they appear:
 
 1. **Configuration Tag** Contains basic information about the essay such as title, author, and visual features
 2. **Linked Data Tags** The concepts in the essay that have linked open data attached to them.
 3. **Body** The main text of the essay broken up into sections by headings. Each heading can have visualizations attached such as images and maps. When the reader scrolls to the next heading, the visualizations are automatically replaced.
-4. **References** The section holding all the footnotes for the essay. These footnotes could be in any citation format and may include direct links to other sources.
+4. **References** The final section containing all the footnotes for the essay. These footnotes could be in any citation format and may include direct links to other sources.
 
 # The Configuration Tag
 
