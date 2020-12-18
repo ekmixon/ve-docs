@@ -31,7 +31,7 @@ The `param ve-config` tag is not technically required for an essay to render, bu
 
 `<param ve-config attribute1="value for this attribute">`
 
-Note that the tag begins with a left caret (<) and ends with a right caret after the final attribute (>). It can contain multiple attribute/value pairs. Each attribute can be spaced out on a single line, but they are often clearer when formed into a vertical list like so:
+Note that the tag begins with a left caret (<) and ends with a right caret after the final attribute (>). (If you're familiar with HTML, you might also note that there is no closing tag.) The `<param ve config>` can contain multiple attribute/value pairs. Each attribute can be spaced out on a single line, but they are often clearer when formed into a vertical list like so:
 
 ![An example configuration tag](config-tag.png)
 
@@ -47,5 +47,19 @@ The value for a given attribute is always enclosed in double quotations marks ("
 |num-primary-sources|The number of primary sources in your essay|Displayed at the top of your essay|
 |author|That's probably you!|Displayed at the top of your essay|
 
-# Linked Open Data Tags
+# Linked Data Entity Tags
 
+After the initial configuration, a visual essay will contain a list of linked data tags. These tags will take the general form:
+
+`<param title="name-used-in-essay" eid="digital-identifier-number" aliases="other-names-used-in-essay">`
+
+An essay could contain dozens of linked data tags or none at all. 
+
+When the entity is a location, you can include fill and marker-symbol attributes
+
+title is for the benefit of the author, not used by the tool
+aliases supplements the aliases in wikidata
+
+  code is written here
+  more code is here
+    code still
