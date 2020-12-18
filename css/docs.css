@@ -14,3 +14,14 @@ a:hover {
     cursor: pointer;
     color: #166337 !important;
 }
+
+h1 {
+    margin: 2rem 0 1rem 0 !important;
+}
+
+h2 {
+    font-family: 'Playfair Display', Serif !important;
+    font-weight: normal !important;
+    font-size: 1.8rem !important;
+    margin: 2rem 0 1rem 0 !important;
+}
