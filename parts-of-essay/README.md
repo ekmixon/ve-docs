@@ -68,7 +68,7 @@ Generally, the list of linked data entity tags are added above the body while (o
 
 ![An example of linked data entity tags](linked-entities.png)
 
-Occasionally, you may also see an entity tag include attributes such as `fill` and `marker-symbol`. These are used to describe the color and form of map markers, and they are described in more detail in the mapping section.
+Occasionally, you may also see an entity tag include attributes such as `fill` and `marker-symbol`. These are used to describe the color and form of map markers. These attributes are described in more detail in the mapping section.
 
 |Attribute|Description|Effect for Readers|
 |---|---|---|
@@ -80,15 +80,17 @@ Occasionally, you may also see an entity tag include attributes such as `fill` a
 
 # Body
 
-The body of a Visual Essay is composed of sections, where each section is denoted by a level three header with three hashtags such as:
+The body of a Visual Essay is composed of sections, where each section is denoted by a new heading such as:
 
-`### The 20th Century`
+`# The 20th Century`
 
-In order for the heading to render properly (and therefore for the section to be created), there must be a space after the hashtags and before the heading text. A section can contain a single paragraph or many paragraphs. They can also include subsections using an additional hashtag such as:
+In order for the heading to render properly (and therefore for the section to be created), there must be a space after the hashtag(s) and before the heading text. A section can contain a single paragraph or many paragraphs. They can also include subsections using an additional hashtag such as:
 
-`#### The 1920s`
+`## The 1920s`
 
 The concept of a section is important, not just for guiding readers, but for determining what will be displayed in the right pane of the Visual Essay. When a reader approaches the next section in a text, a new visualization automatically populates the right pane of the Visual Essay. For example, the right pane may change from a gallery view of documents to a map or a network graph. Writers should carefully consider what content might be most useful for the readers in any given section.
+
+![Scrolling to the next section causes an image to turn into a map](display-change.gif)
 
 # References
 
