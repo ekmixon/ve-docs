@@ -37,7 +37,7 @@ Note that the tag begins with a left caret (<) and ends with a right caret after
 
 The value for a given attribute is always enclosed in double quotations marks ("). In this example we can see the following *attributes* are defined for this essay:
 
-|Attribute|Description of the value|Effect for Readers|
+|Attribute|Description|Effect for Readers|
 |---|---|---|
 |title|The title of your essay|Displayed at the top of your essay|
 |banner|The URL of your banner image|Displayed at the top of your essay|
@@ -49,17 +49,35 @@ The value for a given attribute is always enclosed in double quotations marks ("
 
 # Linked Data Entity Tags
 
-After the initial configuration, a visual essay will contain a list of linked data tags. These tags will take the general form:
+After the initial configuration, a visual essay will often contain a list of linked data tags. These linked data entity tags enable the most powerful features of visual essay writing, making it possible for authors to quickly generate:
+
+* Background information for readers about a person, concept, or place 
+* Maps that show spatial relationships
+* Network Graphs
+* Galleries of images
+* Tables of data
+* Timelines
+
+To accomplish these, a linked entity tag connects an object or concept from your essay to a graph network. The default for the Visual Essay Tool is Wikidata. This connection is accomplished through the use of special identifier for items. For example, the item identifier for the city of Detroit is Q12439. We can see the available by examining the [Detroit Wikidata page](https://www.wikidata.org/wiki/Q12439). The information is quite expansive, describing the city's name in many languages, it's nicknames, images of the city, its location, founding date, its motto, flag, seal, and more. Later, we'll show how to retrieve some of this data and populate it in your essay. 
+
+For now, it is worth knowing that linked data entity tags are often declared before the body of the essay. Your essay might have dozens of linked data entity tags listed before the body the essay. If a linked data entity tag is declared before the body section of the essay begins, it will be accessible in *every* section of the essay. For example, you could have a map showing the location of Detroit shown every time the word Detroit is mentioned. The Visual Essay Tool is even smart enough to recognize Detroit by a nickname, such as "The Motor City". It's also possible for an entity to be declared in a single section of your essay. For example, if you wrote an essay section focusing on the Chicago, you might not want the map displayed in that section to also show Detroit. 
+
+Generally, the list of linked data entity tags are added above the body while (or sometimes after) it is drafted. Linked entity data tags have this form:
 
 `<param title="name-used-in-essay" eid="digital-identifier-number" aliases="other-names-used-in-essay">`
 
-An essay could contain dozens of linked data tags or none at all. 
+Occasionally, you may also see an entity tag include attributes such as `fill` and `marker-symbol`. These are used to describe the color and form of map markers, and they are described in more detail in the mapping section.
 
-When the entity is a location, you can include fill and marker-symbol attributes
+|Attribute|Description|Effect for Readers|
+|---|---|---|
+|title|A name, purely for the reference of the essay writer|No effect for readers, just helps the writer remember the entity since an identifier number is opaque|
+|eid|The linked data identifier|Triggers different effects when the identifier is mentioned in the text depending on whether it is person, place, thing, concept, etc.|
+|aliases|other names for the item|These additional names also trigger effects beyond the alternative names listed in the Wikidata entry. So you could add "Arsenal of Democracy" for an alias of Detroit even though it is not in the Wikidata entry.|
+|fill|The color of map marker described using a color hex code|Readers will see a marker of this entity on maps in the chosen color|
+|marker-symbol|The symbol used on a map for that entity|Readers will see that entity in the location where the entity is on the map according to Wikidata.|
 
-title is for the benefit of the author, not used by the tool
-aliases supplements the aliases in wikidata
+# Body
 
-  code is written here
-  more code is here
-    code still
+
+
+ 
