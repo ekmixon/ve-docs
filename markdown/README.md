@@ -1,6 +1,3 @@
-[Home](../) | [<- Previous How to Write a Visual Essay](authoring-intro.md) | Learn Markdown in 30 Minutes | 
-___
-
 # Learn Markdown in 30 Minutes
 
 Markdown is a simple way to format text. It allows you to mark text, so that it has basic formatting. In this short tutorial, we'll show you how to use markdown to do the following:
@@ -112,5 +109,3 @@ This needs some evidence. [^1]
 
 # Print your own Markdown Cheat Sheet
 If you find yourself forgetting how to do something in markdown, there are many markdown cheatsheets available on the web. Here is [one you can print out](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) and keep handy.
-
-___
