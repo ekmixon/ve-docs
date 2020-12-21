@@ -1,11 +1,12 @@
 <a href="https://visual-essays.app"><img src="/images/ve-button.png"></a>
-
-* What is a Visual Essay
-* Quick Start: Create Your Site in 2 Steps
-* Writing Content for your Site
-* More About the Technologies Behind the Visual Essay Tool
-* Visual Essay Tags and Attributes
-* Configuring Sitewide Details
+___
+What is a Visual Essay
+Quick Start: Create Your Site in 2 Steps
+Writing Content for your Site
+More About the Technologies Behind the Visual Essay Tool
+Visual Essay Tags and Attributes
+Configuring Sitewide Details
+___
 
 # What is a Visual Essay? (Home)
 
