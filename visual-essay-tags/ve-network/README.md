@@ -7,7 +7,7 @@ The network viewer is used to associate and display a network graph with a text 
 * [D3Plus Ring Network](#d3plusring)
 * [Vis.js Network](#visjs)
 
-## <a name="d3"></a>D3.js Network
+## D3.js Network<a name="d3"></a>
 
 ### Overview
 This tag will render a basic network graphed using the D3.js library. D3.js is a JavaScript library for producing dynamic, interactive data visualizations in web browsers. Documentation is available at [https://d3js.org/](https://d3js.org/). The `ve-d3-network` tag is used to generate this diagram and currently supports comma separated (CSV) or tab separated (TSV) delimited text files as input data. 
