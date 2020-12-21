@@ -35,12 +35,6 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 7. [Adding a Map to Your Essay](adding-maps.md)
 8. [Working with Map Layers](map-layers.md)
 
-# More About the Technologies behind the Visual Essay Tool
-
-1. [Knowledge graphs](knowledge-graphs.md)
-2. [Linked Open Data](lod.md)
-3. [IIIF (International Image Interoperability Framework)](iiif.md)
-
 # Visual Essay Tags and Attributes
 
 [Visual essay tags](visual-essay-tags)
@@ -48,3 +42,9 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 # Configuring Sitewide Details
 
 [Configuring Sitewide Details](config-site-details)
+
+# More About the Technologies behind the Visual Essay Tool
+
+1. [Knowledge graphs](knowledge-graphs.md)
+2. [Linked Open Data](lod.md)
+3. [IIIF (International Image Interoperability Framework)](iiif.md)
