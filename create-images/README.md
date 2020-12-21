@@ -1,7 +1,8 @@
-* The Image Tag
-* Link to a Hosted Image (Preferred)
-* Upload an Image to your GitHub Repository (Not Ideal)
-* Making an Uploaded Image the Banner for a Single Page/Essay
+The Image Tag <br />
+Link to a Hosted Image (Preferred) <br />
+Upload an Image to your GitHub Repository (Not Ideal) <br />
+Making an Uploaded Image the Banner for a Single Page/Essay <br />
+Making an Uploaded Image the Main Website Banner <br />
 ___
 
 # The Image Tag
