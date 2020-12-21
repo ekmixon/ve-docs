@@ -2,10 +2,10 @@
 
 The network viewer is used to associate and display a network graph with a text element. There are 4 different types of network graphs available:
 
-* D3.js Network [link](#d3)
-* D3Plus Simple Network [link](#d3plussimple)
-* D3Plus Ring Network [link](#d3plusring)
-* Vis.js Network [link](#visjs)
+* [D3.js Network](#d3)
+* [D3Plus Simple Network](#d3plussimple)
+* [D3Plus Ring Network](#d3plusring)
+* [Vis.js Network](#visjs)
 
 ## <a name="d3"></a>D3.js Network
 
