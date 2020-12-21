@@ -1,5 +1,11 @@
 <a href="https://visual-essays.app"><img src="/images/ve-button.png"></a>
 
+* What is a Visual Essay
+* Quick Start: Create Your Site in 2 Steps
+* Writing Content for your Site
+* More About the Technologies Behind the Visual Essay Tool
+* Visual Essay Tags and Attributes
+
 # What is a Visual Essay? (Home)
 
 Visual Essays help researchers and students make complex arguments and tell compelling stories using state-of-the-art tools for digital writing. The Visual Essay tool is approachable for beginners, using the [Markdown](https://www.markdownguide.org/getting-started/) language that can be learned in 30 minutes or less. Markdown allows user to quickly write digital text with emphasis and basic structures such as lists, hyperlinks, images, and video. 
@@ -28,12 +34,12 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 7. [Adding a Map to Your Essay](adding-maps.md)
 8. [Working with Map Layers](map-layers.md)
 
-## More About the Technologies behind the Visual Essay Tool
+# More About the Technologies behind the Visual Essay Tool
 
 1. [Knowledge graphs](knowledge-graphs.md)
 2. [Linked Open Data](lod.md)
 3. [IIIF (International Image Interoperability Framework)](iiif.md)
 
-# Reference
+# Visual Essay Tags and Attributes
 
 [Visual essay tags](visual-essay-tags)
