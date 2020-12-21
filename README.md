@@ -47,4 +47,4 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 
 # Configuring Sitewide Details
 
-[Configuring Sitewide Details[config-site-details]
+[Configuring Sitewide Details](config-site-details)
