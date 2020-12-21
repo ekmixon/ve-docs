@@ -1,27 +1,35 @@
+* The `<param ve-image>` Tag
 * Link to a Hosted Image
 * Upload an Image to your GitHub Repository
+___
 
-Add an image to a page/essay using the `<param ve-image>` tag. This tag has significant benefits over using basic Markdown such as `![Image accessibility description goes here](http://exampleurl.com/image.png)`. By using the `<param ve-image>` tag, your image will automatically be shown in the right-hand pane of your essay within a specialized viewer called [Mirador](https://projectmirador.org/). Mirador has the following benefits:
+# The `<param ve-image>` Tag
+
+Add an image to a page/essay using the `<param ve-image>` tag. This tag has significant benefits over using basic Markdown such as 
+```![Image accessibility description goes here](http://exampleurl.com/image.png)```
+
+By using the `<param ve-image>` tag, your image will automatically be shown in the right-hand pane of your essay within a specialized Mirador](https://projectmirador.org/) viewer. Mirador has the following benefits:
 
 1. Zoom, display, compare images
 2. Create a gallery of images
 3. Compare and annotate images
 4. Automatic titling
 
-The `<param ve-image>` requires two additional elements: `title` and `url`. The `title` contains the description of the image which will be displayed underneath and is important for accessibility purposes. The `url` is the address where the image is stored. Here is an example:
+The `<param ve-image>` requires two additional attributes: `title` and `url`. The `title` contains the description of the image which will be displayed underneath and is important for accessibility purposes. The `url` is the address where the image is stored. Here is an example:
 
-`<param ve-image title="The JSTOR Logo" url="https://upload.wikimedia.org/wikipedia/commons/7/7c/JSTOR_wordmark.svg">`
+`<param ve-image title="Roasted Coffee Beans" url="https://upload.wikimedia.org/wikipedia/commons/c/c5/Roasted_coffee_beans.jpg">`
 
 The `<param ve-image>` tag supports the following image types:
 
 * .png
 * .jpg
+* .tiff (a high-resolution format, often used in cultural heritage)
 
 We are currently working on support for the .svg filetype. For the `url`, generally it is preferred to link to a hosted image instead of uploading an image to your GitHub Repository.
 
 # Link to a Hosted Image (Preferred)
 
-For most images, this is the best practice. Ideally, the image is hosted on a stable URL of some kind in a cultural heritage collection. Please include any information on Image Rights. If you have a copy of the image and the right to use it, you can also upload it to the [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Images) and link to it there.
+For most images, this is the best practice. Ideally, the image is hosted on a stable URL of some kind in a cultural heritage collection. If you have a copy of the image and the right to use it, you can also upload it to the [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Images) and link to it there.
 
 # Upload an Image to your GitHub Repository (Not Ideal)
 
@@ -29,6 +37,13 @@ This approach may make sense if you have an image whose rights are cleared, but 
 
 ## Making an Uploaded Image the Banner for your Website
 
-Height is 400px.  Width varies of course.  I typically crop banners at 400px height and 1200 - 1600 width.  The images are scaled to fit so it’s not super important to be precise.  As a recommendation I think 1200w x 400h is probably a good rule of thumb to use.  Ideally these would be jpegs with a quality level set such that the resulting image file was 150kb or less to minimize page load times. 
+When editing a banner image for your site, aim for:
+
+* Height- ~400 pixels
+* Width- 1200-1600 pixels
+* .jpg file type
+* ≤ 150 kb in size
+
+It is a good practice to create a `/images/` directory in your GitHub repository to hold sitewide images. For images that are likely to appear on a single page, include those images in the directory for that page (alongside the README.md file). 
 
 ## Making an Uploaded Image the Banner for a Single Page/Essay
