@@ -63,14 +63,17 @@ When editing a banner image for your site, aim for:
 
 To specify a banner for your whole site, include a link to the image in the `config.json` file for the site, like so:
 
-```{
-    "title": "Visual Essays Documentation",
-    "banner": "/images/banner.jpg",
-    "acct": "JSTOR-Labs",
-    "repo": "ve-docs",
-    "ref": "main",
-    "logo": "/images/labs.jpg",
-    "favicon": "/images/favicon.ico",
-    "css": "https://cdn.jsdelivr.net/gh/jstor-labs/ve-docs@main/css/docs.css",
-    "nav": []
+```
+{
+  "title": "Visual Essays Documentation",
+  "banner": "/images/banner.jpg",
+  "acct": "JSTOR-Labs",
+  "repo": "ve-docs",
+  "ref": "main",
+  "logo": "/images/labs.jpg",
+  "favicon": "/images/favicon.ico",
+  "css": "https://cdn.jsdelivr.net/gh/jstor-labs/ve-docs@main/css/docs.css",
+  "nav": []
 }```
+
+For more on setting up your `config.json` file, see its description section.
