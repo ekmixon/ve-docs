@@ -1,3 +1,10 @@
+The Parts of an Essay <br />
+The Configuration Tag <br />
+Linked Data Entity Tags <br />
+Body <br />
+References <br />
+___
+
 # The Parts of an Essay
 
 Essays written for print often share similar parts, such as:
