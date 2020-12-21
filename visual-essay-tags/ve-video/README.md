@@ -4,7 +4,7 @@
 The video viewer is used to associate and display a video with a text element.  Youtube videos are supported in the current version of the visual essay tool.  Other streaming services may be added in future versions.
 
 ## Syntax
-```
+```html
 <param ve-video>
 ```
 
@@ -15,4 +15,6 @@ The video viewer is used to associate and display a video with a text element.  
 
 ## Usage examples
 
-`<param ve-video id="5upF4rJUxC4" title="NYBG 2019 Corpse Flower Timelapse">`
+```html
+<param ve-video id="5upF4rJUxC4" title="NYBG 2019 Corpse Flower Timelapse">
+```
