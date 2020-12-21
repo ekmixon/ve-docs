@@ -3,7 +3,7 @@
 * Upload an Image to your GitHub Repository
 ___
 
-# The `<param ve-image>` Tag
+# The <param ve-image> Tag
 
 Add an image to a page/essay using the `<param ve-image>` tag. This tag has significant benefits over using basic Markdown such as 
 ```![Image accessibility description goes here](http://exampleurl.com/image.png)```
