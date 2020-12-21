@@ -2,9 +2,9 @@
 What is a Visual Essay <br />
 Quick Start: Create Your Site in 2 Steps <br />
 Writing Content for your Site <br />
-More About the Technologies Behind the Visual Essay Tool <br />
 Visual Essay Tags and Attributes<br />
 Configuring Sitewide Details<br />
+More About the Technologies Behind the Visual Essay Tool <br />
 ___
 
 # What is a Visual Essay? (Home)
