@@ -5,6 +5,7 @@
 * Writing Content for your Site
 * More About the Technologies Behind the Visual Essay Tool
 * Visual Essay Tags and Attributes
+* Configuring Sitewide Details
 
 # What is a Visual Essay? (Home)
 
@@ -43,3 +44,7 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 # Visual Essay Tags and Attributes
 
 [Visual essay tags](visual-essay-tags)
+
+# Configuring Sitewide Details
+
+[Configuring Sitewide Details[config-site-details]
