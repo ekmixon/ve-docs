@@ -3,6 +3,11 @@
 ## Overview
 The video viewer is used to associate and display a video with a text element.  Youtube videos are supported in the current version of the visual essay tool.  Other streaming services may be added in future versions.
 
+## Syntax
+```
+<param ve-video>
+```
+
 ## Options
 - __id__:  The Youtube video ID.
 - __title__:  The title attribute is used for the image caption.  Markdown text formatting is supported in the title allowing for italicized and bold text.
