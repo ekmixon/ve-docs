@@ -1,8 +1,9 @@
-* Viewing your Website Files on GitHub.com
-* Editing your Website Files on GitHub.com
-* Creating a New Page on GitHub.com
-* Logging into your GitHub Account from your Website
-* Editing a Single Page Quickly from your Website
+Viewing your Website Files on GitHub.com <br />
+Editing your Website Files on GitHub.com <br />
+Creating a New Page on GitHub.com <br />
+Logging into your GitHub Account from your Website <br />
+Editing a Single Page Quickly from your Website <br />
+____
 
 # Viewing your Website Files on GitHub.com
 

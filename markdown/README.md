@@ -1,4 +1,13 @@
-[Home](../) | [<- Previous How to Write a Visual Essay](authoring-intro.md) | Learn Markdown in 30 Minutes | 
+Learn Markdown in 30 Minutes <br />
+Viewing Your Writing in a Markdown Editor <br />
+Create Headers/Titles <br />
+Add Emphasis with Italic and Bold <br />
+Create Lists (Bulleted and Numbered) <br />
+Create hyperlinks <br />
+Insert Images <br />
+Insert a Horizontal Rule/Divider <br />
+Insert Footnotes <br />
+Print your own Markdown Cheat Sheet <br />
 ___
 
 # Learn Markdown in 30 Minutes
@@ -29,7 +38,7 @@ A header is text that starts a new section, like a title. To create a large head
 
 ![Creating different size headers](headers.gif)
 
-# Add emphasis with italic and bold<a name="emphasis"></a>
+# Add emphasis with Italic and Bold<a name="emphasis"></a>
 
 Italicize words by adding a single asterisk or underscore on each side.
 ```
@@ -51,7 +60,7 @@ __bold text__
 
 ![Adding emphasis](emphasis.gif)
 
-# Create lists (bulleted and numbered)<a name="lists"></a>
+# Create lists (Bulleted and Numbered)<a name="lists"></a>
 
 Create a bulleted list using asterisks. Create a numbered list using numbers followed by periods.
 
@@ -85,7 +94,7 @@ Insert images by starting with an exclamation point, followed by an image descri
 
 ![Inserting images](images.gif)
 
-# Insert a horizontal rule/divider<a name="dividers"></a>
+# Insert a Horizontal Rule/Divider<a name="dividers"></a>
 
 Insert a horizontal rule by writing three underscores, asterisks, or hyphens in a row.
 ```
@@ -96,7 +105,7 @@ ___
 
 ![Insert a horizontal rule](hrule.gif)
 
-# Insert footnote<a name="footnotes"></a>
+# Insert Footnotes<a name="footnotes"></a>
 
 Add a footnote by putting a caret followed by a number in a set of brackets. The number will turn into a hyperlink that brings readers to the appropriate footnote at the bottom of the page.
 
@@ -112,5 +121,3 @@ This needs some evidence. [^1]
 
 # Print your own Markdown Cheat Sheet
 If you find yourself forgetting how to do something in markdown, there are many markdown cheatsheets available on the web. Here is [one you can print out](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) and keep handy.
-
-___
