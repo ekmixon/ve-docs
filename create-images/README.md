@@ -75,6 +75,7 @@ To specify a banner for your whole site, include a link to the image in the `con
   "favicon": "/images/favicon.ico",
   "css": "https://cdn.jsdelivr.net/gh/jstor-labs/ve-docs@main/css/docs.css",
   "nav": []
-}```
+}
+```
 
 For more on setting up your `config.json` file, see its description section.
