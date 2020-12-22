@@ -13,6 +13,7 @@ The `config.json` file stores sitewide settings such as the site title, logo, an
     "nav": []
 }
 ```
+
 The `config.json` file contains a set of key/value pairs inside a set of brackets `{}`. Both the key and value are written in quotations marks with a single colon between them.
 
 |Key|Value|Purpose|
