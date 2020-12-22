@@ -3,8 +3,7 @@ Home <br />
 What is a Visual Essay? <br />
 Quick Start: Create Your Site in 2 Steps <br />
 Writing Content for your Site <br />
-Visual Essay Tags and Attributes<br />
-Configuring Sitewide Details<br />
+Quick Reference <br />
 More About the Technologies Behind the Visual Essay Tool <br />
 ___
 
@@ -36,13 +35,10 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 7. [Adding a Map to Your Essay](adding-maps.md)
 8. [Working with Map Layers](map-layers.md)
 
-# Visual Essay Tags and Attributes
+# Quick Reference
 
-[Visual essay tags](visual-essay-tags)
-
-# Configuring Sitewide Details
-
-[Configuring Sitewide Details](config-file-description)
+* [Visual essay tags](visual-essay-tags)
+* [Configuring Sitewide Details](config-file-description)
 
 # More About the Technologies behind the Visual Essay Tool
 
