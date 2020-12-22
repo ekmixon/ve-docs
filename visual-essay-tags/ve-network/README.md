@@ -1,6 +1,6 @@
 # Network viewers
 
-The network viewer is used to associate and display a network graph with a text element. There are 4 different types of network graphs available:
+The network viewer is used to associate and display a network graph with a text element. There are 3 different types of network graphs available:
 
 * [D3Plus Simple Network](#d3plussimple)
 * [D3Plus Ring Network](#d3plusring)
@@ -13,6 +13,8 @@ ___
 <a name="d3plussimple"></a>
 
 ### Overview
+![D3Plus Simple Network](d3plus.png){: .right .dropshadow .border .thumb-300w} 
+
 This tag renders a basic network diagram using the D3Plus library. D3plus is a JavaScript re-usable chart library that extends the popular D3.js to enable the easy creation of visualizations.  Example diagrams can be seen at [https://d3plus.org/examples/](https://d3plus.org/examples/).  Documentation is available at [https://d3plus.org/docs/](https://d3plus.org/docs/). The `ve-d3plus-network` tag is used to generate this diagram and currently supports comma separated (CSV) or tab separated (TSV) delimited text files as input data. 
 
 ### Options
