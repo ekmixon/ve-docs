@@ -42,6 +42,6 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 
 # More About the Technologies behind the Visual Essay Tool
 
-1. [Knowledge graphs](knowledge-graphs.md)
-2. [Linked Open Data](lod.md)
-3. [IIIF (International Image Interoperability Framework)](iiif.md)
+* [Knowledge graphs](knowledge-graphs.md)
+* [Linked Open Data](lod.md)
+* [IIIF (International Image Interoperability Framework)](iiif.md)
