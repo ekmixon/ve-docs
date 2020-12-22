@@ -31,9 +31,9 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 3. [Creating and Editing Pages in GitHub](create-and-edit-pages)
 4. [The Parts of a Visual Essay](parts-of-essay)
 5. [Adding Images to your Site](create-images)
-6. [Linking Data Entities](linking-data.md)
-7. [Adding a Map to Your Essay](adding-maps.md)
-8. [Working with Map Layers](map-layers.md)
+6. [Linking Data Entities](linking-data)
+7. [Adding a Map to Your Essay](adding-maps)
+8. [Working with Map Layers](map-layers)
 
 # Quick Reference
 
