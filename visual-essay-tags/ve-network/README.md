@@ -45,6 +45,8 @@ The data used in this example is defined in a TSV (tab separated values) file th
 <a name="d3plusring"></a>
 
 ### Overview
+![Image viewer](d3plusring.png){: .right .dropshadow .border .thumb-300w} 
+
 This tag renders a ring network diagram using the D3Plus library. Rings are a way to view network connections focused on 1 node in the network.  This visualization shows primary and secondary connections of a specific node, and allows the user to click on a node to recenter the visualization on that selected node. The `ve-d3plus-ring` tag is used to generate this diagram and currently supports comma separated (CSV) or tab separated (TSV) delimited text files as input data. It also uses a `center` attribute to identify the name of the network'ss central node.
 
 ### Options
@@ -64,6 +66,8 @@ This example uses the same TSV input file used in the simple network example abo
 <a name="visjs"></a>
 
 ### Overview
+![Image viewer](visnetwork.png){: .right .dropshadow .border .thumb-300w} 
+
 This tag renders a network diagram using the Vis.js library, a dynamic, browser based visualization JavaScript library. Examples of network graphs created in Vis.js can be seen at [https://visjs.github.io/vis-network/examples/](https://visjs.github.io/vis-network/examples/). The documentation for networks can be viewed at [https://visjs.github.io/vis-network/docs/network/](https://visjs.github.io/vis-network/docs/network/). The `ve-vis-network` tag is used to generate this graph and currently supports comma separated (CSV) or tab separated (TSV) delimited text files as input data. An optional `title` attribute can be defined to give the network graph a title. 
 
 ### Options
