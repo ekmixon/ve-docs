@@ -78,4 +78,4 @@ To specify a banner for your whole site, include a link to the image in the `con
 }
 ```
 
-For more on setting up your `config.json` file, see its description section.
+The `config.json` file holds a variety of sitewide settings. [Read more ->](https://docs.visual-essays.app/config-file-description/)
