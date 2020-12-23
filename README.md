@@ -21,11 +21,13 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 
 # Quick Start: Create Your Site in 2 Steps
 <a name="create-site"></a>
+
 1. [Sign up for a free Github account](https://github.com/join)
 2. [Create a Repository for your Site](create-repo)
 
 # Writing Content for your Site
 <a name="writing-content"></a>
+
 1. [An Introduction to the Visual Essay Tool](authoring-intro)
 2. [Learn Markdown in 30 Minutes](markdown)
 3. [Creating and Editing Pages in GitHub](create-and-edit-pages)
@@ -37,11 +39,13 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 
 # Quick Reference
 <a name="quick-reference"></a>
+
 * [Visual essay tags](visual-essay-tags)
 * [Configuring Sitewide Details (config.json file)](config-file-description)
 
 # More About the Technologies behind the Visual Essay Tool
 <a name="more-about-technologies"></a>
+
 * [Knowledge graphs](knowledge-graphs.md)
 * [Linked Open Data](lod.md)
 * [IIIF (International Image Interoperability Framework)](iiif.md)
