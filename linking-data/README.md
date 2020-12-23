@@ -1,4 +1,6 @@
 [<- Home](https://docs.visual-essays.app/) <br />
+[Linking Entities in a Section of Your Essay](#section-link) <br />
+[Linking Entities for the Entire Essay](#whole-essay-link) <br />
 [Adding Maps ->](https://docs.visual-essays.app/adding-maps)
 ___
 # Linking Data Entities
@@ -8,6 +10,7 @@ While writing your visual essay, you're bound to come across a large variety of 
 Much of the knowledge in Wikipedia has been structured into a network of relationships called a semantic graph. The semantic graph behind Wikipedia is called Wikidata. Your essay can draw on the knowledge available in Wikidata by tagging relevant entities with an item identifier. If your readers are unfamiliar with a particular item in your essay, a description can be automaticaly generated so long as the identifier has been included in your essay's code.
 
 # Linking Entities in a Section of Your Essay
+<a name="section-link"></a>
 
 To link an entity in a particular section of your essay, you can use a `<param ve-entity>` tag in that section:
 
@@ -31,6 +34,7 @@ In addition to using a `<param ve-entity>` tag, you can declare an entity on a s
 In this case, a reader could click on the text <span ve-entity title="Black Lives Matter Movement" eid="Q19600530">human rights activists</span> which would create a pop-up with a description of the Black Lives Matter movement. Try clicking on the entity in the previous sentence to see the result.
 
 # Linking Entities for the Entire Essay
+<a name="whole-essay-link"></a>
 
 If you want to link a set of entities for your entire essay, create those links before the first section of the essay. This practice is so common that we have called "Linked Data Tags" one of the [Four Parts of a Visual Essay](https://docs.visual-essays.app/parts-of-essay/).
 
