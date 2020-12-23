@@ -29,5 +29,6 @@ The `config.json` file contains a set of key/value pairs inside a set of bracket
 |`favicon`|The link to a favicon file (.ico)|Displays a small icon in browser tabs for the website|
 |`css`|A link to the site stylesheet (.css)|Changes the default styling for your site|
 |`nav`|A list of additional navigation links|Adds additional links to the hamburger menu|
+
 ___
 [<- Home](https://docs.visual-essays.app/)
