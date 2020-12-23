@@ -2,7 +2,7 @@
 
 # Adding a Map to Your Essay
 
-<param ve-map center="Q12439" title="Detroit" zoom="12" prefer geojson>
+<param ve-map center="Q12439" title="Detroit" zoom="12" prefer-geojson>
 
 To include a basic map in a section of your essay, use the `<param ve-map>` tag:
 
