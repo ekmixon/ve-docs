@@ -4,7 +4,7 @@ Home <br />
 [Quick Start: Create Your Site in 2 Steps](#create-site) <br />
 [Writing Content for your Site](#writing-content) <br />
 [Quick Reference](#quick-reference) <br />
-[More About the Technologies Behind the Visual Essay Tool](#more-about-technologies) <br />
+[The Technologies Behind the Visual Essay Tool](#more-about-technologies) <br />
 ___
 
 # What is a Visual Essay?
@@ -35,7 +35,6 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 5. [Adding Images to your Site](create-images)
 6. [Linking Data Entities](linking-data)
 7. [Adding a Map to Your Essay](adding-maps)
-8. [Working with Map Layers](map-layers)
 
 # Quick Reference
 <a name="quick-reference"></a>
@@ -43,7 +42,7 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 * [Visual essay tags](visual-essay-tags)
 * [Configuring Sitewide Details (config.json file)](config-file-description)
 
-# More About the Technologies behind the Visual Essay Tool
+# The Technologies behind the Visual Essay Tool
 <a name="more-about-technologies"></a>
 
 * [Knowledge graphs](knowledge-graphs.md)
