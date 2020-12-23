@@ -1,13 +1,14 @@
-The Parts of an Essay <br />
+[<- Home](https://docs.visual-essays.app/) <br />
 The Configuration Tag <br />
 Linked Data Entity Tags <br />
 Body <br />
 References <br />
-___
+[Adding Images to your Site ->](https://docs.visual-essays.app/create-images)
+____
 
-# The Parts of an Essay
+# The Parts of a Visual Essay
 
-Essays written for print often share similar parts, such as:
+Essays written for print have familiar parts, such as:
 
 * A Title
 * An Author
@@ -16,14 +17,14 @@ Essays written for print often share similar parts, such as:
 * Paragraphs
 * Footnotes/Endnotes/References
 
-All of those parts can also be found in visual essays, but also include features such as:
+All of those parts can also be found in visual essays, but visual essays might also include features such as:
 
 * Images and Image Galleries
 * Maps and Layers
 * Linked Open Data
 * Network Graphs
 
-To create these features, a visual essay depends on some level of coding that describes for readers what should appear on the screen at any given time. Our goal in creating the Visual Essay Tool has been to balance the performative possibilities of your essay with the complexity of code. In doing so, we have sought to tuck code under the hood that the average scholar may find overwhelming, yet sufficiently expose the levers and buttons that are likely to help make sophisticated arguments. We create this balance—between accessibility and complexity—from author feedback. So please reach out if you feel like we're holding you back!
+To create these features, a visual essay depends on some level of coding that describes for readers what should appear on the screen at any given time. Our goal in creating the Visual Essay Tool has been to balance the performative possibilities of your essay with the complexity of code. In doing so, we have sought to tuck code under the hood that the average scholar may find overwhelming—yet sufficiently expose the levers and buttons that are likely to help make sophisticated arguments. We create this balance—between accessibility and complexity—from author feedback. So please reach out if you feel like we're holding you back!
 
 The structure of a visual essay is very similar to a traditional printed essay. They begin with descriptive data, transition into the argument body, and end with references. Here are the parts you can expect to see in the order they appear:
 
@@ -116,3 +117,6 @@ For each reference in the body, a corresponding reference is placed in the final
 The only difference from the reference in the body is the inclusion of a colon. References can simply point to print sources, but they may also include links to online articles, videos, images, and other materials.
 
  ![An example references section](references.png)
+
+___
+[<- Home](https://docs.visual-essays.app/) | [Adding Images to your Site ->](https://docs.visual-essays.app/create-images)
