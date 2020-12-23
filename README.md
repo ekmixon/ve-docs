@@ -1,6 +1,5 @@
 <a href="https://visual-essays.app"><img src="/images/ve-button.png"></a>
 Home <br />
-[What is a Visual Essay?](#what-is-visual-essay) <br />
 [Quick Start: Create Your Site in 2 Steps](#create-site) <br />
 [Writing Content for your Site](#writing-content) <br />
 [Quick Reference](#quick-reference) <br />
