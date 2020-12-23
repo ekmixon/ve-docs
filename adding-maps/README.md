@@ -14,6 +14,16 @@ Finally, we have included a zoom level of "8". As that number increases, we will
 
 After the map has rendered at our defined level, readers also have the option to zoom in, zoom out, and move the map at will.
 
+# Ann Arbor
+
+## Overview
+
+<param ve-entity eid="Q12439" title="Detroit">
+<param ve-entity eid="Q485172" title="Ann Arbor">
+<param ve-entity eid="Q871265" title="East Lansing">
+
+Ann Arbor is a city in the U.S. state of Michigan and the county seat of Washtenaw County. The 2010 census recorded its population to be 113,934. It is the principal city of the Ann Arbor Metropolitan Statistical Area, which encompasses all of Washtenaw County. Ann Arbor is also included in the larger Greater Detroit Combined Statistical Area.[^1]
+<param ve-map primary center="Q485172" zoom="12" prefer-geojson>
 
 
 ____
