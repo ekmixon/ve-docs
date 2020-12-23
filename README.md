@@ -1,6 +1,6 @@
 <a href="https://visual-essays.app"><img src="/images/ve-button.png"></a>
 Home <br />
-What is a Visual Essay? <br />
+[What is a Visual Essay?](#what-is-visual-essay) <br />
 Quick Start: Create Your Site in 2 Steps <br />
 Writing Content for your Site <br />
 Quick Reference <br />
@@ -8,7 +8,7 @@ More About the Technologies Behind the Visual Essay Tool <br />
 ___
 
 # What is a Visual Essay?
-
+<a name="what-is-visual-essay"></a>
 Visual Essays help researchers and students make complex arguments and tell compelling stories using state-of-the-art tools for digital writing. The Visual Essay tool is approachable for beginners, using the [Markdown](https://www.markdownguide.org/getting-started/) language that can be learned in 30 minutes or less. Markdown allows user to quickly write digital text with emphasis and basic structures such as lists, hyperlinks, images, and video. 
 
 At the same time, the visual essay tool supports advanced web-authoring methods such as:
