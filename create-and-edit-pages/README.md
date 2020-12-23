@@ -1,9 +1,12 @@
+[<- Home](https://docs.visual-essays.app/) <br />
 Viewing your Website Files on GitHub.com <br />
 Editing your Website Files on GitHub.com <br />
 Creating a New Page on GitHub.com <br />
 Logging into your GitHub Account from your Website <br />
 Quickly Editing a Single Page from your Website <br />
+[The Parts of a Visual Essay ->](https://docs.visual-essays.app/parts-of-essay)
 ____
+
 # Creating and Editing Pages
 
 Any changes to your site will be changes to the site repository files at GitHub.com. We can create a new page, edit pages, and upload files directly on GitHub.com. The Visual Essay Tool also includes a component to make quick changes directly from your site. This quick editor can change the code on an existing page, but it cannot create a new page or add files to your site. 
@@ -71,3 +74,5 @@ Supply your login information for your github account. This information will be 
 4. Choose "Edit Page"
 5. An editor window will appear allowing you to quickly make any changes.
 6. Remember to commit changes!
+___
+[<- Home](https://docs.visual-essays.app/) | [The Parts of a Visual Essay ->](https://docs.visual-essays.app/parts-of-essay)
