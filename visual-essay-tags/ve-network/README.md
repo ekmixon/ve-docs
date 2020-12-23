@@ -26,6 +26,8 @@ The data used in this example is defined in a TSV (tab separated values) file th
 <param ve-d3plus-network url="https://jstor-labs.github.io/ve-components/public/data/medici.tsv">
 ```
 
+___
+
 
 ## D3Plus Ring Network
 <a name="d3plusring"></a>
@@ -46,6 +48,8 @@ This example uses the same TSV input file used in the simple network example abo
        url="https://jstor-labs.github.io/ve-components/public/data/medici.tsv"
        center="Anna Maria Luisa de' Medici">
 ```
+
+___
 
 
 ## Vis.js Network
