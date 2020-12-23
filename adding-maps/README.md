@@ -5,17 +5,13 @@ ___
 
 <param ve-map center="Q12439" title="Detroit" zoom="8">
 
-To include a map in a section of your essay, use the `<param ve-map>` tag, making sure to declare a `center` attribute using an entity identifier:
+To include a basic map in a section of your essay, use the `<param ve-map>` tag:
 
 `<param ve-map center="Q12439" title="Detroit" zoom="8">`
 
-The example above creates a map centered on Wikidata entity "Q12439". We have also supplied a `title` of "Detroit" for the entity, so we can remember what the entity refers to. 
+The Wikidata entity identifier for Detroit is "Q12439". We supply this identifier to the `center` attribute. In this example, we have also included a `title` attribute so we can remember what the entity is. This is only for our benefit; it doesn't change the map in any fashion. We could, for example, have made the title "American-Canadian Border" and it would have pointed to the same entity location for Detroit.
 
-Finally, we have a supplied a zoom level of 8. 
-
-
-
-
+Finally, we have included a zoom level of "8". As that number increases, we will zoom in closer to street level. As it decreases, our map will show whole countries, continents, and then the globe.
 
 ____
 [<- Home](https://docs.visual-essays.app/)
