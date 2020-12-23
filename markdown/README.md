@@ -1,34 +1,29 @@
-Learn Markdown in 30 Minutes <br />
-Viewing Your Writing in a Markdown Editor <br />
-Create Headers/Titles <br />
-Add Emphasis with Italic and Bold <br />
-Create Lists (Bulleted and Numbered) <br />
-Create hyperlinks <br />
-Insert Images <br />
-Insert a Horizontal Rule/Divider <br />
-Insert Footnotes <br />
-Print your own Markdown Cheat Sheet <br />
+[<- Home](https://docs.visual-essays.app/) <br />
+[Viewing Your Writing in a Markdown Editor](#viewing-your-writing) <br />
+[Create Headers/Titles](#headers) <br />
+[Add Emphasis with Italic and Bold](#emphasis) <br />
+[Create Lists (Bulleted and Numbered)](#lists) <br />
+[Create Hyperlinks](#links) <br />
+[Insert Images](#images) <br />
+[Insert a Horizontal Rule/Dividers](#dividers) <br />
+[Insert footnotes](#footnotes) <br />
+[Print your own Markdown Cheat Sheet](#print-your-own) <br />
+[Creating and Editing Pages in GitHub ->](https://docs.visual-essays.app/create-and-edit-pages/)
 ___
 
 # Learn Markdown in 30 Minutes
 
 Markdown is a simple way to format text. It allows you to mark text, so that it has basic formatting. In this short tutorial, we'll show you how to use markdown to do the following:
 
-* [Create Headers/Titles](#headers)
-* [Add emphasis with italic and bold](#emphasis)
-* [Create lists (bulleted and numbered)](#lists)
-* [Create hyperlinks](#links)
-* [Insert images](#images)
-* [Insert a horizontal rule/divider](#dividers)
-* [Insert footnotes](#footnotes)
-
 # Viewing Your Writing in a Markdown Editor
+<a name="viewing-your-writing"></a>
 
 In this quick lesson, we'll use a free online Markdown Editor called [Dillinger](http://dillinger.io). (You could also use another editor such as [StackEdit](http://stackedit.io) or [Editor.md](https://pandao.github.io/editor.md/en.html). Whatever editor you choose, the editor will display the original text that you edit on the left and preview the transformed text (as it would appear in a web browser) on the right side. Select all the text in the Markdown box on the left and delete it so we can start with a fresh slate. Try creating each of these in your editor!
 
 ![Deleting all the text in left box of Dillinger](delete-left-box.gif)
 
-# Create Headers/Titles<a name="headers"></a>
+# Create Headers/Titles
+<a name="headers"></a>
 
 A header is text that starts a new section, like a title. To create a large header, simply insert a hashtag (#) in front of the title. You can use additional hashtags for smaller headers. These are useful for creating sub-sections of a larger document. 
 
@@ -38,7 +33,8 @@ A header is text that starts a new section, like a title. To create a large head
 
 ![Creating different size headers](headers.gif)
 
-# Add emphasis with Italic and Bold<a name="emphasis"></a>
+# Add emphasis with Italic and Bold
+<a name="emphasis"></a>
 
 Italicize words by adding a single asterisk or underscore on each side.
 ```
@@ -60,7 +56,8 @@ __bold text__
 
 ![Adding emphasis](emphasis.gif)
 
-# Create lists (Bulleted and Numbered)<a name="lists"></a>
+# Create lists (Bulleted and Numbered)
+<a name="lists"></a>
 
 Create a bulleted list using asterisks. Create a numbered list using numbers followed by periods.
 
@@ -76,7 +73,8 @@ Create a bulleted list using asterisks. Create a numbered list using numbers fol
 
 ![Creating lists](bullets.gif)
 
-# Create hyperlinks<a name="links"></a>
+# Create hyperlinks
+<a name="links"></a>
 
 Create hyperlinks by putting the link text in brackets and the link address in parentheses. 
 ```
@@ -85,7 +83,8 @@ Check out [JSTOR Labs](http://labs.jstor.org)
 
 ![Creating a hyperlink](hyperlinks.gif)
 
-# Insert images<a name="images"></a>
+# Insert images
+<a name="images"></a>
 
 Insert images by starting with an exclamation point, followed by an image description for accessibility in brackets, and finally put the address where the image is stored on a server into a set of parentheses.
 ```
@@ -105,7 +104,8 @@ ___
 
 ![Insert a horizontal rule](hrule.gif)
 
-# Insert Footnotes<a name="footnotes"></a>
+# Insert Footnotes
+<a name="footnotes"></a>
 
 Add a footnote by putting a caret followed by a number in a set of brackets. The number will turn into a hyperlink that brings readers to the appropriate footnote at the bottom of the page.
 
@@ -120,4 +120,9 @@ This needs some evidence. [^1]
 
 
 # Print your own Markdown Cheat Sheet
+<a name="print-your-own"></a>
 If you find yourself forgetting how to do something in markdown, there are many markdown cheatsheets available on the web. Here is [one you can print out](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) and keep handy.
+
+___
+
+[<- Home](https://docs.visual-essays.app/) | [Creating and Editing Pages in GitHub ->](https://docs.visual-essays.app/create-and-edit-pages/)
