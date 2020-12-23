@@ -1,10 +1,10 @@
 <a href="https://visual-essays.app"><img src="/images/ve-button.png"></a>
 Home <br />
 [What is a Visual Essay?](#what-is-visual-essay) <br />
-Quick Start: Create Your Site in 2 Steps <br />
-Writing Content for your Site <br />
-Quick Reference <br />
-More About the Technologies Behind the Visual Essay Tool <br />
+[Quick Start: Create Your Site in 2 Steps](#create-site) <br />
+[Writing Content for your Site](#writing-content) <br />
+[Quick Reference](#quick-reference) <br />
+[More About the Technologies Behind the Visual Essay Tool](#more-about-technologies) <br />
 ___
 
 # What is a Visual Essay?
@@ -20,12 +20,12 @@ At the same time, the visual essay tool supports advanced web-authoring methods 
 While these technologies may seem intimidating at first, the Visual Essay Tool (alongside this documentation) makes implementing these technologies feasible for digital humanists as well as those without formal computer training. You don't need to have any experience with mapping, knowledge graphs, or programming to get started. We'll walk you through every step.
 
 # Quick Start: Create Your Site in 2 Steps
-
+<a name="create-site"></a>
 1. [Sign up for a free Github account](https://github.com/join)
 2. [Create a Repository for your Site](create-repo)
 
 # Writing Content for your Site
-
+<a name="writing-content"></a>
 1. [An Introduction to the Visual Essay Tool](authoring-intro)
 2. [Learn Markdown in 30 Minutes](markdown)
 3. [Creating and Editing Pages in GitHub](create-and-edit-pages)
@@ -36,12 +36,12 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 8. [Working with Map Layers](map-layers)
 
 # Quick Reference
-
+<a name="quick-reference"></a>
 * [Visual essay tags](visual-essay-tags)
 * [Configuring Sitewide Details (config.json file)](config-file-description)
 
 # More About the Technologies behind the Visual Essay Tool
-
+<a name="more-about-technologies"></a>
 * [Knowledge graphs](knowledge-graphs.md)
 * [Linked Open Data](lod.md)
 * [IIIF (International Image Interoperability Framework)](iiif.md)
