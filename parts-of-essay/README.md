@@ -57,7 +57,7 @@ The value for a given attribute is always enclosed in double quotations marks ("
 |author|That's probably you!|Displayed at the top of your essay|
 
 # Linked Data Entity Tags
-<a name="linked-data-tag></a>
+<a name="linked-data-tag"></a>
 
 After the initial configuration, a visual essay will often contain a list of linked data tags. These linked data entity tags enable the most powerful features of visual essay writing, making it possible for authors to quickly generate:
 
