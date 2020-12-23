@@ -2,8 +2,11 @@ Viewing your Website Files on GitHub.com <br />
 Editing your Website Files on GitHub.com <br />
 Creating a New Page on GitHub.com <br />
 Logging into your GitHub Account from your Website <br />
-Editing a Single Page Quickly from your Website <br />
+Quickly Editing a Single Page from your Website <br />
 ____
+# Creating and Editing Pages
+
+Any changes to your site will be changes to the site repository files at GitHub.com. We can create a new page, edit pages, and upload files directly on GitHub.com. The Visual Essay Tool also includes a component to make quick changes directly from your site. This quick editor can change the code on an existing page, but it cannot create a new page or add files to your site. 
 
 # Viewing your Website Files on GitHub.com
 
@@ -60,7 +63,7 @@ Click on the "hamburger menu" (the set of three horizontal lines) in the upper, 
 
 Supply your login information for your github account. This information will be saved, making it easy to edit any page on your site quickly.
 
-# Editing a Single Page Quickly from your Website
+# Quickly Editing a Single Page from your Website
 
 1. Complete the previous step "Logging into your GitHub Account from your Website." 
 2. Navigate to the particular web page you would like to edit.
