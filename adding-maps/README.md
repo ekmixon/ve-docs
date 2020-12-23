@@ -4,7 +4,7 @@
 
 To include a basic map in a section of your essay, use the `<param ve-map>` tag:
 
-`<param ve-map center="Q12439" title="Detroit" zoom="10">`
+`<param ve-map center="Q12439" title="Detroit" zoom="11">`
 
 The Wikidata entity identifier for Detroit is "Q12439". We supply this identifier to the `center` attribute. In this example, we have also included a `title` attribute so we can remember what the entity is. This is only for our benefit; it doesn't change the map in any fashion. We could, for example, have made the title "American-Canadian Border" and it would have pointed to the same entity location for Detroit.
 
@@ -15,7 +15,7 @@ After the map has rendered at our defined level, readers also have the option to
 # Map of Detroit
 
 <param ve-entity eid="Q12439" title="Detroit">
-<param ve-map center="Q12439" title="Detroit" zoom="10" prefer-geojson>
+<param ve-map center="Q12439" title="Detroit" zoom="11" prefer-geojson>
 
 Here is where the map of Detroit will pop up.
 
