@@ -1,8 +1,6 @@
 <param ve-config layout="vtl">
 
 # Adding a Map to Your Essay
-<param ve-entity eid="Q12439" title="Detroit">
-<param ve-map center="Q12439" title="Detroit" zoom="12" prefer-geojson>
 
 To include a basic map in a section of your essay, use the `<param ve-map>` tag:
 
@@ -13,5 +11,10 @@ The Wikidata entity identifier for Detroit is "Q12439". We supply this identifie
 Finally, we have included a zoom level of "8". As that number increases, we will zoom in closer to street level. As it decreases, our map will show whole countries, continents, and then the globe.
 
 After the map has rendered at our defined level, readers also have the option to zoom in, zoom out, and move the map at will.
+
+# Map of Detroit
+
+<param ve-entity eid="Q12439" title="Detroit">
+<param ve-map center="Q12439" title="Detroit" zoom="12" prefer-geojson>
 ____
 [<- Home](https://docs.visual-essays.app/)
