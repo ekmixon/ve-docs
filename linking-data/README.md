@@ -28,7 +28,7 @@ Once an entity has been linked in a particular section of your essay, an informa
 In addition to using a `<param ve-entity>` tag, you can declare an entity on a set of words by using a `<span ve-entity>` tag:
 `<span ve-entity title="Black Lives Matter Movement" eid="Q19600530">human rights activists</span>`
 
-In this case, a reader could click on the text <span ve-entity title="Black Lives Matter Movement" eid="Q19600530">human rights activists</span> which would create a pop-up with a description of the Black Lives Matter movement. 
+In this case, a reader could click on the text <span ve-entity title="Black Lives Matter Movement" eid="Q19600530">human rights activists</span> which would create a pop-up with a description of the Black Lives Matter movement. Try clicking on the entity in the previous sentence to see the result.
 
 # Linking Entities for the Entire Essay
 
@@ -39,9 +39,7 @@ If you want to link a set of entities for your entire essay, create those links 
 3. Body (the combined sections of written and visual argument)
 4. References (the references/footnotes for the argument)
 
-
-
-linked data tags is co
+If you have done programming before, you might recognize this as the difference between a "local" and "global" scope. If you haven't programmed before, the only thing to remember is that linked data entities declared at the beginning of your essay apply to the whole essay. If a linked data entity is declared in the body of your visual essay within a particular section, it will only create links for that particular section.
 
 ____
 [<- Home](https://docs.visual-essays.app/) | [Adding Maps ->](https://docs.visual-essays.app/adding-maps)
