@@ -14,6 +14,7 @@ To link an entity in a particular section of your essay, you can use a `<param e
 ```
 <param title="Black Lives Matter Movement" eid="Q19600530" aliases="#BLM">
 ```
+
 The only required attribute is the `eid` number which corresponds to the [Wikidata identifier number for Black Lives Matter](https://www.wikidata.org/wiki/Q19600530). You can find the identifier for the concept you're looking for by executing a search on the Wikidata website. If the concept is not there, you can also add it yourself!
 
 When we look at the entry for Black Lives Matter on Wikidata, we see a label (or name) for the movement in many languages and a variety of aliases (or alternative names). We can see that it is an instance of a social movement, see its logo, the names of its founders, images/videos of Black Lives Matter protests, and much more. 
@@ -33,7 +34,7 @@ In this case, a reader could click on the text [human rights activits](#) which 
 
 If you want to link a set of entities for your entire essay, create those links before the first section of the essay. This practice is so common that we have called "Linked Data Tags" one of the [Four Parts of a Visual Essay](https://docs.visual-essays.app/parts-of-essay/).
 
-1. [Configuration](https://docs.visual-essays.app/parts-of-essay/#config-tag) (the content of `param ve-config`)
+1. Configuration (the content of `param ve-config`)
 2. Linked Data Tags (the content of `param eid` tags)
 3. Body (the combined sections of written and visual argument)
 4. References (the references/footnotes for the argument)
