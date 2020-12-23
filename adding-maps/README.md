@@ -1,6 +1,5 @@
-[<- Home](https://docs.visual-essays.app/) <br />
-___
 <param ve-config layout="vtl">
+
 # Adding a Map to Your Essay
 
 <param ve-map center="Q12439" title="Detroit" zoom="8">
