@@ -1,4 +1,5 @@
-[Home](https://docs.visual-essays.app/)
+[<- Home](https://docs.visual-essays.app/)
+
 ---
 # Create a Repository for your Site
 
@@ -28,4 +29,4 @@ Simply, fill in your own github user name and the name you used for your reposit
 **Note:** It is possible to render your site on a custom domain. Contact us for direction here.
 
 ---
-[Home](https://docs.visual-essays.app/) | [An Introduction to the Visual Essay Tool](https://docs.visual-essays.app/authoring-intro)
+[<- Home](https://docs.visual-essays.app/) | [An Introduction to the Visual Essay Tool ->](https://docs.visual-essays.app/authoring-intro)
