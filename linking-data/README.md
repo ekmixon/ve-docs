@@ -31,7 +31,16 @@ In this case, a reader could click on the text [human rights activits](#) which 
 
 # Linking Entities for the Entire Essay
 
+If you want to link a set of entities for your entire essay, create those links before the first section of the essay. This practice is so common that we have called "Linked Data Tags" one of the [Four Parts of a Visual Essay](https://docs.visual-essays.app/parts-of-essay/).
 
+1. [Configuration](https://docs.visual-essays.app/parts-of-essay/#config-tag) (the content of `param ve-config`)
+2. Linked Data Tags (the content of `param eid` tags)
+3. Body (the combined sections of written and visual argument)
+4. References (the references/footnotes for the argument)
+
+
+
+linked data tags is co
 
 ____
 [<- Home](https://docs.visual-essays.app/) | [Adding Maps ->](https://docs.visual-essays.app/adding-maps)
