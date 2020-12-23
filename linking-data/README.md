@@ -28,7 +28,7 @@ Once an entity has been linked in a particular section of your essay, an informa
 In addition to using a `<param eid>` tag, you can declare an entity on a set of words by using a `<span eid>` tag:
 `<span title="Black Lives Matter Movement" eid="Q19600530">human rights activists</span>`
 
-In this case, a reader could click on the text <span title="Black Lives Matter Movement" eid="Q19600530">human rights activists</span> which would create a pop-up with a description of the Black Lives Matter movement. 
+In this case, a reader could click on the text <span eid="Q19600530">human rights activists</span> which would create a pop-up with a description of the Black Lives Matter movement. 
 
 # Linking Entities for the Entire Essay
 
