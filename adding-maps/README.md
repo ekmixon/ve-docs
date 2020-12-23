@@ -16,5 +16,11 @@ After the map has rendered at our defined level, readers also have the option to
 
 <param ve-entity eid="Q12439" title="Detroit">
 <param ve-map center="Q12439" title="Detroit" zoom="12" prefer-geojson>
+
+Here is where the map of Detroit will pop up.
+
+
+
+
 ____
 [<- Home](https://docs.visual-essays.app/)
