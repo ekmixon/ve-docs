@@ -41,9 +41,8 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 * [Visual essay tags](visual-essay-tags)
 * [Configuring Sitewide Details (config.json file)](config-file-description)
 
-# The Technologies behind the Visual Essay Tool
+# Technologies behind the Visual Essay Tool
 <a name="more-about-technologies"></a>
 
-* [Knowledge graphs](knowledge-graphs.md)
-* [Linked Open Data](lod.md)
-* [IIIF (International Image Interoperability Framework)](iiif.md)
+* [Linked Open Data for Smart People who Just Haven't Learned about it Yet](https://www.youtube.com/watch?v=VZBpFiLbi-Y) by [Miriam Posner](https://miriamposner.com/)
+* [What is IIIF? (International Image Interoperability Framework)](https://www.youtube.com/watch?v=8LiNbf4ELZM) by [Sheila Rabun](https://orcid.org/0000-0002-1196-6279)
