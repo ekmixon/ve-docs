@@ -40,6 +40,7 @@ While these technologies may seem intimidating at first, the Visual Essay Tool (
 
 * [Visual essay tags](visual-essay-tags)
 * [Configuring Sitewide Details (config.json file)](config-file-description)
+* [Tools](tools)
 
 # Technologies behind the Visual Essay Tool
 <a name="more-about-technologies"></a>
