@@ -1,13 +1,14 @@
 # Annotation Tool
 
 ## Overview
+![Annotation Tool](tool-overview.png){: .right .dropshadow .border .thumb-300w} 
 The annotation tool is used to add, delete, edit and reorder annotations for IIIF images used in the visual essay. This tool uses [Annotorious](https://recogito.github.io/annotorious/), a JavaScript image annotation library, on top of [OpenSeadragon](https://openseadragon.github.io/), an open-source, web-based viewer for high-resolution images, to display and edit annotations for IIIF images.
 
 ## Accessing the tool
 To access the annotation tool, the user must be logged into Github using the Login option found in the navigation panel in the top left corner.
 
 Once logged in, the button to access the tool should show up upon hover over a IIIF image. Below is an image of the button highlighted in green.
-
+!(tool-icon.png){: .left .dropshadow .border .thumb-300w} 
 Clicking the button will open up a separate window to edit annotations.
 
 ## Using the tool
