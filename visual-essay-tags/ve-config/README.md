@@ -23,7 +23,9 @@ An optional `ve-config` tag may be added to an essay to define essay-specific at
        title="Essay Title"
        author="Essay Author Name"
        banner="URL to banner image"
-       layout="vertical">
+       layout="vertical"
+       eid="Essay Wikidata QID"
+       about="Essay Subject Wikidata QID">
 ```
 
 ### Demo essay configs
@@ -34,5 +36,6 @@ An optional `ve-config` tag may be added to an essay to define essay-specific at
 <param ve-config
        title="Hello, Berlin"
        banner="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/WorldMap-A_with_Frame.png/1024px-WorldMap-A_with_Frame.png"
-       layout="vertical">
+       layout="vertical"
+       eid="Q104699604">
 ```
