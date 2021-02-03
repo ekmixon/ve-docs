@@ -12,7 +12,7 @@ The visual essays image viewer is able to both use an existing IIIF manifest (su
 ## Options
 
 - __manifest__:  The URL to an existing IIIF presentation manifest for the image, if one exists.
-- __url__:  The URL to the image file.  This is not required or used if a __namifest__ option is provided. When using a IIIF image separate from a manifest, `/info.json` must be appended to the image URL. When using an image URL the highest quality version of the image should be used when multiple versions are available, such as when using a Wikimedia Commons image.
+- __url__:  The URL to the image file.  This is not required or used if a __manifest__ option is provided. When using a IIIF image separate from a manifest, `/info.json` must be appended to the image URL. When using an image URL the highest quality version of the image should be used when multiple versions are available, such as when using a Wikimedia Commons image.
 - __label__:  The label attribute is used for the image caption.  Markdown text formatting is supported in the title allowing for italicized and bold text.
 - __description__:  If a label is not provided the attribute is used for the image caption.  Markdown text formatting is supported in the title allowing for italicized and bold text.
 - __attribution__:  An attribution statement to associate with the image.
