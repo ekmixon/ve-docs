@@ -1,8 +1,9 @@
-## ve-map-layer
+# Map Layer
 
+## Overview
 The map shown for an active element can be augmented with one or more layers.  Two types of layers are currently supported.
 
-### ve-map-layer attributes
+## Options
 
 - __type__:  `mapwarper` or `geojson`.  Defines the specific layer type.
 - __title__:  The title attribute serves a couple purposes for map layers.  First, it is used a the label on map controls that enable/disable MapWarper layers and control the layer opacity.  When the layer type is geojson the title, when provided, will override any predefined labels in the GeoJSON file when displaying location labels on a map.  Note that when multiple features (and labels) are defined in a single GeoJSON file the title value will be used once for the aggregate features.
