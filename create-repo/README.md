@@ -1,3 +1,6 @@
+[<- Home](https://docs.visual-essays.app/)
+
+---
 # Create a Repository for your Site
 
 1. Log into your account at [github.com](http://github.com)
@@ -24,3 +27,6 @@ Your current visual essay site is based on a single document: README.md. The add
 Simply, fill in your own github user name and the name you used for your repository. For the next step, we will add some content using Markdown.
 
 **Note:** It is possible to render your site on a custom domain. Contact us for direction here.
+
+---
+[<- Home](https://docs.visual-essays.app/) | [An Introduction to the Visual Essay Tool ->](https://docs.visual-essays.app/authoring-intro)

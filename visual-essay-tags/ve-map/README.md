@@ -64,3 +64,15 @@ Below are example `flyto` actions for Rome, one for a `click` event and another 
 ```
 
 ## Usage examples
+
+```html
+	<param ve-map center="32.262084, 64.391554" zoom="2.5" stroke-width="0" show-labels>
+	<param ve-map-layer geojson url="/geojson/peony.json" title="Peony Distribution" active> 
+```
+
+```html
+	<param ve-map center="0.040297, -71.224280" zoom="3.8" marker-type="circle" stroke-width="0" fill-opacity="1">
+	<param ve-map-layer geojson active title="Aurea" url="https://jstor-labs.github.io/plant-humanities/data/heliconia-aurea.tsv" fill="#D11141" radius="6">  
+	<param ve-map-layer geojson active title="Bihai" url="https://jstor-labs.github.io/plant-humanities/data/heliconia-bihai.tsv" radius="4.5" fill="#009900"> 
+```
+

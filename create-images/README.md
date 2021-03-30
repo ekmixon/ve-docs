@@ -1,16 +1,17 @@
-The Image Tag <br />
-Link to a Hosted Image (Preferred) <br />
-Upload an Image to your GitHub Repository (Not Ideal) <br />
-Making an Uploaded Image the Banner for a Single Page/Essay <br />
-Making an Uploaded Image the Main Website Banner <br />
+[<- Home](https://docs.visual-essays.app/) <br />
+[Link to a Hosted Image (Preferred)](#link-to-hosted-image) <br />
+[Upload an Image to your GitHub Repository (Not Ideal)](#upload-an-image) <br />
+[Making an Uploaded Image the Banner for a Single Page/Essay](#single-page-banner) <br />
+[Making an Uploaded Image the Main Website Banner](#website-banner) <br />
+[Linking Data Entities ->](https://docs.visual-essays.app/linking-data)
 ___
 
-# The Image Tag
+# Adding Images to your Site
 
-Add an image to a page/essay using the `<param ve-image>` tag. This tag has significant benefits over using basic Markdown such as 
+When adding an image to a page/essay, it is generally best to use the `<param ve-image>` tag. This tag has significant benefits over using basic Markdown such as 
 ```![Image accessibility description goes here](http://exampleurl.com/image.png)```
 
-By using the `<param ve-image>` tag, your image will automatically be shown in the right-hand pane of your essay within a specialized Mirador](https://projectmirador.org/) viewer. Mirador has the following benefits:
+By using the `<param ve-image>` tag, your image will automatically be shown in the right-hand pane of your essay within a specialized [Mirador](https://projectmirador.org/) viewer. Mirador has the following benefits:
 
 1. Zoom, display, compare images
 2. Create a gallery of images
@@ -29,15 +30,15 @@ The `<param ve-image>` tag supports the following image types:
 
 We are currently working on support for the .svg filetype. For the `url`, generally it is preferred to link to a hosted image instead of uploading an image to your GitHub Repository.
 
-# Additional Attributes
-
 The `<param ve-image>` supports a variety of additional attributes that are [documented here](https://docs.visual-essays.app/visual-essay-tags/ve-image/).
 
 # Link to a Hosted Image (Preferred)
+<a name="link-to-hosted-image"></a>
 
 For most images, this is the best practice. Ideally, the image is hosted on a stable URL of some kind in a cultural heritage collection. If you have a copy of the image and the right to use it, you can also upload it to the [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Images) and link to it there.
 
 # Upload an Image to your GitHub Repository (Not Ideal)
+<a name="upload-an-image"></a>
 
 This approach may make sense if you have an image whose rights are cleared, but that is not of general interest to the public (and therefore not appropriate for [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Images). This makes sense for small, site-specific images like navigation arrows or buttons. Keep in mind that GitHub does enforce limitations on repository (and therefore image) sizes, so any uploaded images should be small in size. 
 
@@ -46,6 +47,7 @@ It is a good practice to create a `/images/` directory in your GitHub repository
 An ideal use-case for uploading an image to your GitHub repository is for a site (or page) banner.
 
 # Making an Uploaded Image the Banner for a Single Page/Essay
+<a name="single-page-banner"></a>
 
 The banner image for a particular page is declared in the `<param ve-config>` tag with the banner attribute:
 `<param ve-config
@@ -61,6 +63,7 @@ When editing a banner image for your site, aim for:
 * ≤ 150 kb in size
 
 # Making an Uploaded Image the Main Website Banner
+<a name="website-banner"></a>
 
 To specify a banner for your whole site, include a link to the image in the `config.json` file for the site, like so:
 
@@ -79,3 +82,5 @@ To specify a banner for your whole site, include a link to the image in the `con
 ```
 
 The `config.json` file holds a variety of sitewide settings. [Read more ->](https://docs.visual-essays.app/config-file-description/)
+___
+[<- Home](https://docs.visual-essays.app/) | [Linking Data Entities ->](https://docs.visual-essays.app/linking-data)

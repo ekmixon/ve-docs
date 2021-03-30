@@ -22,7 +22,7 @@ The two tags in this section, the `ve-config` and `ve-entity` tags, do not direc
 
 ## Visualization component tags
 
-The tags in this section are used to declare and configure one or visualizers that are associated with an essay section or paragraph.
+The tags in this section are used to declare and configure one or multiple visualizers that are associated with an essay section or paragraph.
 
 - [Image viewer](ve-image) - <i class="fas fa-image"></i>
 - [Map viewer](ve-map) - <i class="fas fa-map-marker-alt"></i>

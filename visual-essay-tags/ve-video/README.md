@@ -1,6 +1,7 @@
 # Video viewer
 
 ## Overview
+![Video Viewer](video.png){: .right .dropshadow .border .thumb-300w} 
 The video viewer is used to associate and display a video with a text element.  Youtube videos are supported in the current version of the visual essay tool.  Other streaming services may be added in future versions.
 
 ## Syntax

@@ -1,13 +1,14 @@
-The Parts of an Essay <br />
-The Configuration Tag <br />
-Linked Data Entity Tags <br />
-Body <br />
-References <br />
-___
+[<- Home](https://docs.visual-essays.app/) <br />
+[The Configuration Tag](#config-tag) <br />
+[Linked Data Entity Tags](#linked-data-tag) <br />
+[Body](#body) <br />
+[References](#references) <br />
+[Adding Images to your Site ->](https://docs.visual-essays.app/create-images)
+____
 
-# The Parts of an Essay
+# The Parts of a Visual Essay
 
-Essays written for print often share similar parts, such as:
+Essays written for print have familiar parts, such as:
 
 * A Title
 * An Author
@@ -16,14 +17,14 @@ Essays written for print often share similar parts, such as:
 * Paragraphs
 * Footnotes/Endnotes/References
 
-All of those parts can also be found in visual essays, but also include features such as:
+All of those parts can also be found in visual essays, but visual essays might also include features such as:
 
 * Images and Image Galleries
 * Maps and Layers
 * Linked Open Data
 * Network Graphs
 
-To create these features, a visual essay depends on some level of coding that describes for readers what should appear on the screen at any given time. Our goal in creating the Visual Essay Tool has been to balance the performative possibilities of your essay with the complexity of code. In doing so, we have sought to tuck code under the hood that the average scholar may find overwhelming, yet sufficiently expose the levers and buttons that are likely to help make sophisticated arguments. We create this balance—between accessibility and complexity—from author feedback. So please reach out if you feel like we're holding you back!
+To create these features, a visual essay depends on some level of coding that describes for readers what should appear on the screen at any given time. Our goal in creating the Visual Essay Tool has been to balance the performative possibilities of your essay with the complexity of code. In doing so, we have sought to tuck code under the hood that the average scholar may find overwhelming—yet sufficiently expose the levers and buttons that are likely to help make sophisticated arguments. We create this balance—between accessibility and complexity—from author feedback. So please reach out if you feel like we're holding you back!
 
 The structure of a visual essay is very similar to a traditional printed essay. They begin with descriptive data, transition into the argument body, and end with references. Here are the parts you can expect to see in the order they appear:
 
@@ -33,6 +34,7 @@ The structure of a visual essay is very similar to a traditional printed essay. 
 4. **References** The final section containing all the footnotes for the essay. These footnotes could be in any citation format and may include direct links to other sources.
 
 # The Configuration Tag
+<a name="config-tag"></a>
 
 The `param ve-config` tag is not technically required for an essay to render, but it supplies crucial information that any serious essay would include. The form of the configuration tag is:
 
@@ -55,6 +57,7 @@ The value for a given attribute is always enclosed in double quotations marks ("
 |author|That's probably you!|Displayed at the top of your essay|
 
 # Linked Data Entity Tags
+<a name="linked-data-tag"></a>
 
 After the initial configuration, a visual essay will often contain a list of linked data tags. These linked data entity tags enable the most powerful features of visual essay writing, making it possible for authors to quickly generate:
 
@@ -86,6 +89,7 @@ Occasionally, you may also see an entity tag include attributes such as `fill` a
 |marker-symbol|The symbol used on a map for that entity|Readers will see that entity in the location where the entity is on the map according to Wikidata.|
 
 # Body
+<a name="body"></a>
 
 The body of a Visual Essay is composed of sections, where each section is denoted by a new heading such as:
 
@@ -100,6 +104,7 @@ The concept of a section is important, not just for guiding readers, but for det
 ![Scrolling to the next section causes an image to turn into a map](display-change.gif)
 
 # References
+<a name="references"></a>
 
 The final section of a visual essay contains any academic references. From a print perspective, these serve the same purpose as footnotes connecting readers to additional text (and sometimes resources) that are significant for research purposes but were not able to be included in the main body. A footnote is inserted into the body of the text using the basic form:
 
@@ -116,3 +121,6 @@ For each reference in the body, a corresponding reference is placed in the final
 The only difference from the reference in the body is the inclusion of a colon. References can simply point to print sources, but they may also include links to online articles, videos, images, and other materials.
 
  ![An example references section](references.png)
+
+___
+[<- Home](https://docs.visual-essays.app/) | [Adding Images to your Site ->](https://docs.visual-essays.app/create-images)
