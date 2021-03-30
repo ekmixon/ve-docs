@@ -19,7 +19,7 @@
 
 Your current visual essay site is based on a single document: README.md. The address for your website is based on the following construction:
 
-> http://visual-essay.app/your-github-username/your-repo-name
+> http://visual-essays.app/your-github-username/your-repo-name
 
 Simply, fill in your own github user name and the name you used for your repository. For the next step, we will add some content using Markdown.
 
