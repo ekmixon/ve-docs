@@ -35,6 +35,8 @@ Image animations can be triggered by user interactions performed in the essay te
 	- a comma-delimited value defining the image region to be displayed in the viewer. The value is the same as defined in the `region` attribute above. This will default to zoom to the first image if multiple images are present. For example: `"100,100,1000,1000"`.
 	- an integer number that corresponds to a `ref` ID attribute for a specific image. For example: `"1"`.
 	- an integer number that corresponds to a `ref` ID attribute for a specific image and a comma-delimited value defining the image region separated by the `|` character. This will zoom to the region of a specific image when multiple images are present. For example: `"2|100,100,1000,1000"`.
+	- The key word `next`. If multiple images are present, this will display the next image in the viewer.
+	- The key word `previous`. If multiple images are present, this will display the previous image in the viewer.
 
 Below are some examples of the `zoomto` action for a `click` event:  
 
@@ -51,6 +53,11 @@ This will display the image with the `ref` attribute equal to `3`.
 This will zoom to the specified region in the image with the `ref` attribute equal to `2`.
 ```html 
 	<span data-click-image-zoomto="2|100,100,1000,1000">Foo Text</span>
+```
+
+This will display the next image in the viewer, if there are multiple images.
+```html 
+	<span data-click-image-zoomto="next">Foo Text</span>
 ```
 
 ## Usage examples
