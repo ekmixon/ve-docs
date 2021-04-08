@@ -25,16 +25,32 @@ The visual essays image viewer is able to both use an existing IIIF manifest (su
 - __layers__:  A multi-image viewer mode that superimposes one image over another with an opacity slider.  This mode is activated by including `layers` or `layers="true"` on the first `ve-image` tag when multiple images are associated with an element.
 - __curtain__:  A multi-image viewer mode that overlays one image over another with a curtain slider.  This mode is activated by including `curtain` or `curtain="true"` on the first `ve-image` tag when multiple images are associated with an element.
 - __compare__:  A multi-image viewer mode that simultaneously displays multiple images in the viewer pane.  This mode is activated by including `compare` or `compare="true"` on the first `ve-image` tag when multiple images are associated with an element.
+- __ref__: A reference ID (numerical integers) that is used to identify images when multiple are present in one viewer. This is used when a specific image or specific image and region needs to be shown when specified text is clicked. 
 
 ### Interactions
 
 Image animations can be triggered by user interactions performed in the essay text pane.  Clicking or hovering over linked text can be used to zoom to a specific image region or activate the annotation viewer.  Below are some examples of interactions.
 
-- __zoomto__:  The `zoomto` action takes a comma-delimited value defining the image region to be displayed in the viewer.  The value is the same as defined in the `region` attribute above.
+- __zoomto__:  The `zoomto` action takes 3 different possible input values:
+	- a comma-delimited value defining the image region to be displayed in the viewer. The value is the same as defined in the `region` attribute above. This will default to zoom to the first image if multiple images are present. For example: `"100,100,1000,1000"`.
+	- an integer number that corresponds to a `ref` ID attribute for a specific image. For example: `"1"`.
+	- an integer number that corresponds to a `ref` ID attribute for a specific image and a comma-delimited value defining the image region separated by the `|` character. This will zoom to the region of a specific image when multiple images are present. For example: `"2|100,100,1000,1000"`.
 
-Below is an example `zoomto` action for a `click` event:  
+Below are some examples of the `zoomto` action for a `click` event:  
+
+This will zoom to the specified region (of the first image if there are multiple images).
 ```html 
-	<span data-click-image-zoomto="100,100,1000,1000">Foo</span>
+	<span data-click-image-zoomto="100,100,1000,1000">Foo Text</span>
+```
+
+This will display the image with the `ref` attribute equal to `3`.
+```html
+	<span data-click-image-zoomto="3">Foo Text</span>
+```
+
+This will zoom to the specified region in the image with the `ref` attribute equal to `2`.
+```html 
+	<span data-click-image-zoomto="2|100,100,1000,1000">Foo Text</span>
 ```
 
 ## Usage examples
@@ -43,5 +59,6 @@ Below is an example `zoomto` action for a `click` event:
 	title="Image comparison of the canopy of a dragon tree (_Dracaena draco_) with a classical Greek depiction of the dragon Ladon."
 	url="https://free.iiifhosting.com/iiif/7e103f8b67bc1ce1be0a738a6a34265de93fe18ad5978f48c076da1da1fbf636/info.json"
 	curtain="true"
-	fit="contain">
+	fit="contain"
+       	ref="1" >
 ```
